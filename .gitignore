@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+*.pyc
+csv/jforex/original/
+csv/jforex/data_reworked/
