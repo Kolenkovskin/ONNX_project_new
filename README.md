@@ -1663,6 +1663,252 @@ dtype: int64
 
 Process finished with exit code 0
 
+C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\PycharmProjects\ONNX_bot\py\fill_indicator_gaps.py 
+Скрипт запущен: 2025-06-01 15:33:12
+
+Обработка файла: XAUUSD_1 Min_Ask_2020.01.01_2025.05.25_processed.csv
+Количество строк после обработки: 1912923
+Удалено строк: 459
+Оставшиеся пропуски:
+RSI             0
+MACD            0
+BB_High         0
+BB_Low          0
+ATR             0
+Stochastic_K    0
+Stochastic_D    0
+dtype: int64
+Некорректные значения RSI (вне 0–100): 0
+Некорректные значения Stochastic_K (вне 0–100): 0
+Обновлен файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_1 Min_Ask_2020.01.01_2025.05.25_processed.csv
+
+Обработка файла: XAUUSD_1 Min_Bid_2020.01.01_2025.05.25_processed.csv
+Количество строк после обработки: 1912926
+Удалено строк: 456
+Оставшиеся пропуски:
+RSI             0
+MACD            0
+BB_High         0
+BB_Low          0
+ATR             0
+Stochastic_K    0
+Stochastic_D    0
+dtype: int64
+Некорректные значения RSI (вне 0–100): 0
+Некорректные значения Stochastic_K (вне 0–100): 0
+Обновлен файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_1 Min_Bid_2020.01.01_2025.05.25_processed.csv
+
+Обработка файла: XAUUSD_15 Mins_Ask_2020.01.01_2025.05.25_processed.csv
+Количество строк после обработки: 127540
+Удалено строк: 21
+Оставшиеся пропуски:
+RSI             0
+MACD            0
+BB_High         0
+BB_Low          0
+ATR             0
+Stochastic_K    0
+Stochastic_D    0
+dtype: int64
+Некорректные значения RSI (вне 0–100): 0
+Некорректные значения Stochastic_K (вне 0–100): 0
+Обновлен файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_15 Mins_Ask_2020.01.01_2025.05.25_processed.csv
+
+Обработка файла: XAUUSD_15 Mins_Bid_2020.01.01_2025.05.25_processed.csv
+Количество строк после обработки: 127540
+Удалено строк: 21
+Оставшиеся пропуски:
+RSI             0
+MACD            0
+BB_High         0
+BB_Low          0
+ATR             0
+Stochastic_K    0
+Stochastic_D    0
+dtype: int64
+Некорректные значения RSI (вне 0–100): 0
+Некорректные значения Stochastic_K (вне 0–100): 0
+Обновлен файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_15 Mins_Bid_2020.01.01_2025.05.25_processed.csv
+
+Обработка файла: XAUUSD_30 Mins_Ask_2020.01.01_2025.05.25_processed.csv
+Количество строк после обработки: 63784
+Удалено строк: 0
+Оставшиеся пропуски:
+RSI             0
+MACD            0
+BB_High         0
+BB_Low          0
+ATR             0
+Stochastic_K    0
+Stochastic_D    0
+dtype: int64
+Некорректные значения RSI (вне 0–100): 0
+Некорректные значения Stochastic_K (вне 0–100): 0
+Обновлен файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_30 Mins_Ask_2020.01.01_2025.05.25_processed.csv
+
+Обработка файла: XAUUSD_30 Mins_Bid_2020.01.01_2025.05.25_processed.csv
+Количество строк после обработки: 63784
+Удалено строк: 0
+Оставшиеся пропуски:
+RSI             0
+MACD            0
+BB_High         0
+BB_Low          0
+ATR             0
+Stochastic_K    0
+Stochastic_D    0
+dtype: int64
+Некорректные значения RSI (вне 0–100): 0
+Некорректные значения Stochastic_K (вне 0–100): 0
+Обновлен файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_30 Mins_Bid_2020.01.01_2025.05.25_processed.csv
+
+Обработка файла: XAUUSD_4 Hours_Ask_2020.01.01_2025.05.25_processed.csv
+Количество строк после обработки: 8338
+Удалено строк: 0
+Оставшиеся пропуски:
+RSI             0
+MACD            0
+BB_High         0
+BB_Low          0
+ATR             0
+Stochastic_K    0
+Stochastic_D    0
+dtype: int64
+Некорректные значения RSI (вне 0–100): 0
+Некорректные значения Stochastic_K (вне 0–100): 0
+Обновлен файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_4 Hours_Ask_2020.01.01_2025.05.25_processed.csv
+
+Обработка файла: XAUUSD_4 Hours_Bid_2020.01.01_2025.05.25_processed.csv
+Количество строк после обработки: 8338
+Удалено строк: 0
+Оставшиеся пропуски:
+RSI             0
+MACD            0
+BB_High         0
+BB_Low          0
+ATR             0
+Stochastic_K    0
+Stochastic_D    0
+dtype: int64
+Некорректные значения RSI (вне 0–100): 0
+Некорректные значения Stochastic_K (вне 0–100): 0
+Обновлен файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_4 Hours_Bid_2020.01.01_2025.05.25_processed.csv
+
+Обработка файла: XAUUSD_5 Mins_Ask_2020.01.01_2025.05.25_processed.csv
+Количество строк после обработки: 382609
+Удалено строк: 74
+Оставшиеся пропуски:
+RSI             0
+MACD            0
+BB_High         0
+BB_Low          0
+ATR             0
+Stochastic_K    0
+Stochastic_D    0
+dtype: int64
+Некорректные значения RSI (вне 0–100): 0
+Некорректные значения Stochastic_K (вне 0–100): 0
+Обновлен файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_5 Mins_Ask_2020.01.01_2025.05.25_processed.csv
+
+Обработка файла: XAUUSD_5 Mins_Bid_2020.01.01_2025.05.25_processed.csv
+Количество строк после обработки: 382609
+Удалено строк: 74
+Оставшиеся пропуски:
+RSI             0
+MACD            0
+BB_High         0
+BB_Low          0
+ATR             0
+Stochastic_K    0
+Stochastic_D    0
+dtype: int64
+Некорректные значения RSI (вне 0–100): 0
+Некорректные значения Stochastic_K (вне 0–100): 0
+Обновлен файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_5 Mins_Bid_2020.01.01_2025.05.25_processed.csv
+
+Обработка файла: XAUUSD_Daily_Ask_2020.01.01_2025.05.25_processed.csv
+Количество строк после обработки: 1392
+Удалено строк: 0
+Оставшиеся пропуски:
+RSI             0
+MACD            0
+BB_High         0
+BB_Low          0
+ATR             0
+Stochastic_K    0
+Stochastic_D    0
+dtype: int64
+Некорректные значения RSI (вне 0–100): 0
+Некорректные значения Stochastic_K (вне 0–100): 0
+Обновлен файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_Daily_Ask_2020.01.01_2025.05.25_processed.csv
+
+Обработка файла: XAUUSD_Daily_Bid_2020.01.01_2025.05.25_processed.csv
+Количество строк после обработки: 1392
+Удалено строк: 0
+Оставшиеся пропуски:
+RSI             0
+MACD            0
+BB_High         0
+BB_Low          0
+ATR             0
+Stochastic_K    0
+Stochastic_D    0
+dtype: int64
+Некорректные значения RSI (вне 0–100): 0
+Некорректные значения Stochastic_K (вне 0–100): 0
+Обновлен файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_Daily_Bid_2020.01.01_2025.05.25_processed.csv
+
+Обработка файла: XAUUSD_Hourly_Ask_2020.01.01_2025.05.25_processed.csv
+Количество строк после обработки: 31902
+Удалено строк: 0
+Оставшиеся пропуски:
+RSI             0
+MACD            0
+BB_High         0
+BB_Low          0
+ATR             0
+Stochastic_K    0
+Stochastic_D    0
+dtype: int64
+Некорректные значения RSI (вне 0–100): 0
+Некорректные значения Stochastic_K (вне 0–100): 0
+Обновлен файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_Hourly_Ask_2020.01.01_2025.05.25_processed.csv
+
+Обработка файла: XAUUSD_Hourly_Bid_2020.01.01_2025.05.25_processed.csv
+Количество строк после обработки: 31902
+Удалено строк: 0
+Оставшиеся пропуски:
+RSI             0
+MACD            0
+BB_High         0
+BB_Low          0
+ATR             0
+Stochastic_K    0
+Stochastic_D    0
+dtype: int64
+Некорректные значения RSI (вне 0–100): 0
+Некорректные значения Stochastic_K (вне 0–100): 0
+Обновлен файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_Hourly_Bid_2020.01.01_2025.05.25_processed.csv
+
+Обработка файла: XAUUSD_Renko_ONE_PIP_Ticks_Ask_2020.01.01_2025.05.25_processed.csv
+Количество строк после обработки: 18382606
+Удалено строк: 0
+Traceback (most recent call last):
+  File "C:\Users\Estal\PycharmProjects\ONNX_bot\py\fill_indicator_gaps.py", line 37, in <module>
+    f"Оставшиеся пропуски:\n{df[indicators].isna().sum() if indicators[0] in df.columns else 'Нет индикаторов'}")
+                             ~~^^^^^^^^^^^^
+  File "C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Lib\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['BB_High', 'BB_Low', 'ATR', 'Stochastic_K', 'Stochastic_D'] not in index"
+
+Process finished with exit code 1
+
+
 
 Получение списка установленных библиотек...
 Установленные библиотеки:
