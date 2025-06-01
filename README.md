@@ -1908,6 +1908,43 @@ KeyError: "['BB_High', 'BB_Low', 'ATR', 'Stochastic_K', 'Stochastic_D'] not in i
 
 Process finished with exit code 1
 
+C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\PycharmProjects\ONNX_bot\py\fill_indicator_gaps_renko_ticks.py 
+Скрипт запущен: 2025-06-01 15:40:47
+
+Обработка файла: XAUUSD_Renko_ONE_PIP_Ticks_Ask_2020.01.01_2025.05.25_processed.csv
+Количество строк после обработки: 18382606
+Удалено строк: 0
+Оставшиеся пропуски:
+RSI     0
+MACD    0
+dtype: int64
+Некорректные значения RSI (вне 0–100): 0
+Обновлен файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2020.01.01_2025.05.25_processed.csv
+
+Обработка файла: XAUUSD_Renko_ONE_PIP_Ticks_Bid_2020.01.01_2025.05.25_processed.csv
+Количество строк после обработки: 18318295
+Удалено строк: 0
+Оставшиеся пропуски:
+RSI     0
+MACD    0
+dtype: int64
+Некорректные значения RSI (вне 0–100): 0
+Обновлен файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2020.01.01_2025.05.25_processed.csv
+
+Обработка файла: XAUUSD_Ticks_2024.01.01_2025.05.25_processed.csv
+Количество строк после обработки: 83610923
+Удалено строк: 0
+Оставшиеся пропуски:
+RSI     0
+MACD    0
+dtype: int64
+Некорректные значения RSI (вне 0–100): 0
+Обновлен файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_Ticks_2024.01.01_2025.05.25_processed.csv
+Обработка пропусков для Renko и Ticks завершена.
+
+Process finished with exit code 0
+
+
 
 
 Получение списка установленных библиотек...
