@@ -87,6 +87,223 @@
 
 C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\PycharmProjects\ONNX_bot\py\inspect_file_columns.py 
 
+
+Проверка файлов в original:
+
+Файл: XAUUSD_1 Min_Ask_2020.01.01_2025.05.25.csv
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume ']
+Количество строк: 1913382
+Отсутствующие столбцы: Все присутствуют
+Пропуски в ценах:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+dtype: int64
+Формат Time: Корректный
+
+Файл: XAUUSD_1 Min_Bid_2020.01.01_2025.05.25.csv
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume ']
+Количество строк: 1913382
+Отсутствующие столбцы: Все присутствуют
+Пропуски в ценах:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+dtype: int64
+Формат Time: Корректный
+
+Файл: XAUUSD_15 Mins_Ask_2020.01.01_2025.05.25.csv
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume ']
+Количество строк: 127561
+Отсутствующие столбцы: Все присутствуют
+Пропуски в ценах:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+dtype: int64
+Формат Time: Корректный
+
+Файл: XAUUSD_15 Mins_Bid_2020.01.01_2025.05.25.csv
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume ']
+Количество строк: 127561
+Отсутствующие столбцы: Все присутствуют
+Пропуски в ценах:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+dtype: int64
+Формат Time: Корректный
+
+Файл: XAUUSD_30 Mins_Ask_2020.01.01_2025.05.25.csv
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume ']
+Количество строк: 63784
+Отсутствующие столбцы: Все присутствуют
+Пропуски в ценах:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+dtype: int64
+Формат Time: Корректный
+
+Файл: XAUUSD_30 Mins_Bid_2020.01.01_2025.05.25.csv
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume ']
+Количество строк: 63784
+Отсутствующие столбцы: Все присутствуют
+Пропуски в ценах:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+dtype: int64
+Формат Time: Корректный
+
+Файл: XAUUSD_4 Hours_Ask_2020.01.01_2025.05.25.csv
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume ']
+Количество строк: 8338
+Отсутствующие столбцы: Все присутствуют
+Пропуски в ценах:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+dtype: int64
+Формат Time: Корректный
+
+Файл: XAUUSD_4 Hours_Bid_2020.01.01_2025.05.25.csv
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume ']
+Количество строк: 8338
+Отсутствующие столбцы: Все присутствуют
+Пропуски в ценах:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+dtype: int64
+Формат Time: Корректный
+
+Файл: XAUUSD_5 Mins_Ask_2020.01.01_2025.05.25.csv
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume ']
+Количество строк: 382683
+Отсутствующие столбцы: Все присутствуют
+Пропуски в ценах:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+dtype: int64
+Формат Time: Корректный
+
+Файл: XAUUSD_5 Mins_Bid_2020.01.01_2025.05.25.csv
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume ']
+Количество строк: 382683
+Отсутствующие столбцы: Все присутствуют
+Пропуски в ценах:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+dtype: int64
+Формат Time: Корректный
+
+Файл: XAUUSD_Daily_Ask_2020.01.01_2025.05.25.csv
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume ']
+Количество строк: 1392
+Отсутствующие столбцы: Все присутствуют
+Пропуски в ценах:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+dtype: int64
+Формат Time: Корректный
+
+Файл: XAUUSD_Daily_Bid_2020.01.01_2025.05.25.csv
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume ']
+Количество строк: 1392
+Отсутствующие столбцы: Все присутствуют
+Пропуски в ценах:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+dtype: int64
+Формат Time: Корректный
+
+Файл: XAUUSD_Hourly_Ask_2020.01.01_2025.05.25.csv
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume ']
+Количество строк: 31902
+Отсутствующие столбцы: Все присутствуют
+Пропуски в ценах:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+dtype: int64
+Формат Time: Корректный
+
+Файл: XAUUSD_Hourly_Bid_2020.01.01_2025.05.25.csv
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume ']
+Количество строк: 31902
+Отсутствующие столбцы: Все присутствуют
+Пропуски в ценах:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+dtype: int64
+Формат Time: Корректный
+
+Файл: XAUUSD_Renko_ONE_PIP_Ticks_Ask_2020.01.01_2025.05.25.csv
+Столбцы: ['Time (EET)', 'EndTime', 'Open', 'High', 'Low', 'Close', 'Volume', 'WickPrice', 'OppositeWickPrice ']
+Количество строк: 18382606
+Отсутствующие столбцы: Все присутствуют
+Пропуски в ценах:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+dtype: int64
+Формат Time: Корректный
+
+Файл: XAUUSD_Renko_ONE_PIP_Ticks_Bid_2020.01.01_2025.05.25.csv
+Столбцы: ['Time (EET)', 'EndTime', 'Open', 'High', 'Low', 'Close', 'Volume', 'WickPrice', 'OppositeWickPrice ']
+Количество строк: 18318295
+Отсутствующие столбцы: Все присутствуют
+Пропуски в ценах:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+dtype: int64
+Формат Time: Корректный
+
+Файл: XAUUSD_Ticks_2024.01.01_2025.05.25.csv
+Столбцы: ['Time (EET)', 'Ask', 'Bid', 'AskVolume', 'BidVolume']
+Количество строк: 83610923
+Отсутствующие столбцы: ['Open', 'High', 'Low', 'Close']
+Формат Time: Корректный
+
 === Проверка всех файлов в папке: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\original ===
 
 Файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\original\XAUUSD_1 Min_Ask_2020.01.01_2025.05.25.csv
