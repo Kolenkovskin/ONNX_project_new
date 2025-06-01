@@ -1450,6 +1450,218 @@ dtype: int64
 Process finished with exit code 0
 
 
+C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\PycharmProjects\ONNX_bot\py\add_indicators.py 
+Скрипт запущен: 2025-06-01 15:01:18
+Создана папка: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed
+
+Обработка файла: XAUUSD_1 Min_Ask_2020.01.01_2025.05.25_cleaned.csv
+Создан файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_1 Min_Ask_2020.01.01_2025.05.25_processed.csv
+Количество строк: 1913382
+Пропуски в индикаторах:
+RSI              13
+MACD             25
+BB_High          19
+BB_Low           19
+ATR               0
+Stochastic_K    449
+Stochastic_D    459
+dtype: int64
+
+Обработка файла: XAUUSD_1 Min_Bid_2020.01.01_2025.05.25_cleaned.csv
+Создан файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_1 Min_Bid_2020.01.01_2025.05.25_processed.csv
+Количество строк: 1913382
+Пропуски в индикаторах:
+RSI              13
+MACD             25
+BB_High          19
+BB_Low           19
+ATR               0
+Stochastic_K    448
+Stochastic_D    456
+dtype: int64
+
+Обработка файла: XAUUSD_15 Mins_Ask_2020.01.01_2025.05.25_cleaned.csv
+Создан файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_15 Mins_Ask_2020.01.01_2025.05.25_processed.csv
+Количество строк: 127561
+Пропуски в индикаторах:
+RSI             13
+MACD            25
+BB_High         19
+BB_Low          19
+ATR              0
+Stochastic_K    17
+Stochastic_D    21
+dtype: int64
+
+Обработка файла: XAUUSD_15 Mins_Bid_2020.01.01_2025.05.25_cleaned.csv
+Создан файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_15 Mins_Bid_2020.01.01_2025.05.25_processed.csv
+Количество строк: 127561
+Пропуски в индикаторах:
+RSI             13
+MACD            25
+BB_High         19
+BB_Low          19
+ATR              0
+Stochastic_K    17
+Stochastic_D    21
+dtype: int64
+
+Обработка файла: XAUUSD_30 Mins_Ask_2020.01.01_2025.05.25_cleaned.csv
+Создан файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_30 Mins_Ask_2020.01.01_2025.05.25_processed.csv
+Количество строк: 63784
+Пропуски в индикаторах:
+RSI             13
+MACD            25
+BB_High         19
+BB_Low          19
+ATR              0
+Stochastic_K    13
+Stochastic_D    15
+dtype: int64
+
+Обработка файла: XAUUSD_30 Mins_Bid_2020.01.01_2025.05.25_cleaned.csv
+Создан файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_30 Mins_Bid_2020.01.01_2025.05.25_processed.csv
+Количество строк: 63784
+Пропуски в индикаторах:
+RSI             13
+MACD            25
+BB_High         19
+BB_Low          19
+ATR              0
+Stochastic_K    13
+Stochastic_D    15
+dtype: int64
+
+Обработка файла: XAUUSD_4 Hours_Ask_2020.01.01_2025.05.25_cleaned.csv
+Создан файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_4 Hours_Ask_2020.01.01_2025.05.25_processed.csv
+Количество строк: 8338
+Пропуски в индикаторах:
+RSI             13
+MACD            25
+BB_High         19
+BB_Low          19
+ATR              0
+Stochastic_K    13
+Stochastic_D    15
+dtype: int64
+
+Обработка файла: XAUUSD_4 Hours_Bid_2020.01.01_2025.05.25_cleaned.csv
+Создан файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_4 Hours_Bid_2020.01.01_2025.05.25_processed.csv
+Количество строк: 8338
+Пропуски в индикаторах:
+RSI             13
+MACD            25
+BB_High         19
+BB_Low          19
+ATR              0
+Stochastic_K    13
+Stochastic_D    15
+dtype: int64
+
+Обработка файла: XAUUSD_5 Mins_Ask_2020.01.01_2025.05.25_cleaned.csv
+Создан файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_5 Mins_Ask_2020.01.01_2025.05.25_processed.csv
+Количество строк: 382683
+Пропуски в индикаторах:
+RSI             13
+MACD            25
+BB_High         19
+BB_Low          19
+ATR              0
+Stochastic_K    68
+Stochastic_D    74
+dtype: int64
+
+Обработка файла: XAUUSD_5 Mins_Bid_2020.01.01_2025.05.25_cleaned.csv
+Создан файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_5 Mins_Bid_2020.01.01_2025.05.25_processed.csv
+Количество строк: 382683
+Пропуски в индикаторах:
+RSI             13
+MACD            25
+BB_High         19
+BB_Low          19
+ATR              0
+Stochastic_K    68
+Stochastic_D    74
+dtype: int64
+
+Обработка файла: XAUUSD_Daily_Ask_2020.01.01_2025.05.25_cleaned.csv
+Создан файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_Daily_Ask_2020.01.01_2025.05.25_processed.csv
+Количество строк: 1392
+Пропуски в индикаторах:
+RSI             13
+MACD            25
+BB_High         19
+BB_Low          19
+ATR              0
+Stochastic_K    13
+Stochastic_D    15
+dtype: int64
+
+Обработка файла: XAUUSD_Daily_Bid_2020.01.01_2025.05.25_cleaned.csv
+Создан файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_Daily_Bid_2020.01.01_2025.05.25_processed.csv
+Количество строк: 1392
+Пропуски в индикаторах:
+RSI             13
+MACD            25
+BB_High         19
+BB_Low          19
+ATR              0
+Stochastic_K    13
+Stochastic_D    15
+dtype: int64
+
+Обработка файла: XAUUSD_Hourly_Ask_2020.01.01_2025.05.25_cleaned.csv
+Создан файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_Hourly_Ask_2020.01.01_2025.05.25_processed.csv
+Количество строк: 31902
+Пропуски в индикаторах:
+RSI             13
+MACD            25
+BB_High         19
+BB_Low          19
+ATR              0
+Stochastic_K    13
+Stochastic_D    15
+dtype: int64
+
+Обработка файла: XAUUSD_Hourly_Bid_2020.01.01_2025.05.25_cleaned.csv
+Создан файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_Hourly_Bid_2020.01.01_2025.05.25_processed.csv
+Количество строк: 31902
+Пропуски в индикаторах:
+RSI             13
+MACD            25
+BB_High         19
+BB_Low          19
+ATR              0
+Stochastic_K    13
+Stochastic_D    15
+dtype: int64
+
+Обработка файла: XAUUSD_Renko_ONE_PIP_Ticks_Ask_2020.01.01_2025.05.25_cleaned.csv
+Создан файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2020.01.01_2025.05.25_processed.csv
+Количество строк: 18382606
+Пропуски в индикаторах:
+RSI     13
+MACD    25
+dtype: int64
+
+Обработка файла: XAUUSD_Renko_ONE_PIP_Ticks_Bid_2020.01.01_2025.05.25_cleaned.csv
+Создан файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2020.01.01_2025.05.25_processed.csv
+Количество строк: 18318295
+Пропуски в индикаторах:
+RSI     13
+MACD    25
+dtype: int64
+
+Обработка файла: XAUUSD_Ticks_2024.01.01_2025.05.25_cleaned.csv
+Создан файл: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed\XAUUSD_Ticks_2024.01.01_2025.05.25_processed.csv
+Количество строк: 83610923
+Пропуски в индикаторах:
+RSI     13
+MACD    25
+dtype: int64
+Добавление индикаторов завершено.
+
+Process finished with exit code 0
 
 
 Получение списка установленных библиотек...
