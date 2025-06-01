@@ -4098,118 +4098,310 @@ Process finished with exit code 0
 
 были удалены XAUUSD_Renko_ONE_PIP_Ticks_Bid_2020.01.01_2025.05.25.csv и XAUUSD_Renko_ONE_PIP_Ticks_Ask_2020.01.01_2025.05.25.csv и все их обработки потому что они не доступны за нужный период, а так же XAUUSD_Ticks_2024.01.01_2025.05.25.csv и все его обработки и скачан вместо него C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\original\XAUUSD_Ticks_2020.01.01_2025.05.25.csv для "Если JForex4 не предоставляет Renko, загрузите тиковые данные за 2020–2025 и сгенерируйте Renko локально." и остального применения в проекте.
 
+C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\original\XAUUSD_Ticks_2020.01.01_2025.05.25.csv:
 
-Получение списка установленных библиотек...
-Установленные библиотеки:
- - absl-py                 2.2.2
- - astunparse              1.6.3
- - attrs                   25.3.0
- - beautifulsoup4          4.13.4
- - certifi                 2025.4.26
- - cffi                    1.17.1
- - charset-normalizer      3.4.2
- - click                   8.2.1
- - cloudpickle             3.1.1
- - colorama                0.4.6
- - coloredlogs             15.0.1
- - contourpy               1.3.2
- - cryptography            45.0.3
- - curl_cffi               0.11.1
- - cycler                  0.12.1
- - Cython                  3.1.0
- - dask                    2025.5.1
- - Deprecated              1.2.18
- - filelock                3.18.0
- - flatbuffers             25.2.10
- - fonttools               4.58.0
- - frozendict              2.4.6
- - fsspec                  2025.3.2
- - gast                    0.6.0
- - gitdb                   4.0.12
- - GitPython               3.1.44
- - google-pasta            0.2.0
- - grpcio                  1.71.0
- - h11                     0.16.0
- - h5py                    3.13.0
- - humanfriendly           10.0
- - idna                    3.10
- - Jinja2                  3.1.6
- - joblib                  1.5.0
- - keras                   3.9.2
- - kiwisolver              1.4.8
- - libclang                18.1.1
- - locket                  1.0.0
- - Markdown                3.8
- - markdown-it-py          3.0.0
- - MarkupSafe              3.0.2
- - matplotlib              3.10.3
- - mdurl                   0.1.2
- - MetaTrader5             5.0.4993
- - ml-dtypes               0.3.2
- - mpmath                  1.3.0
- - multitasking            0.0.11
- - namex                   0.0.9
- - networkx                3.4.2
- - numpy                   1.26.4
- - onnx                    1.17.0
- - onnxruntime             1.17.0
- - opt_einsum              3.4.0
- - optree                  0.15.0
- - outcome                 1.3.0.post0
- - packaging               25.0
- - pandas                  2.2.3
- - partd                   1.4.2
- - peewee                  3.18.1
- - pillow                  11.2.1
- - pip                     25.1.1
- - platformdirs            4.3.8
- - protobuf                3.20.3
- - pyarrow                 20.0.0
- - pycparser               2.22
- - PyGithub                2.6.1
- - Pygments                2.19.1
- - PyJWT                   2.10.1
- - PyNaCl                  1.5.0
- - pyparsing               3.2.3
- - pyreadline3             3.5.4
- - PySocks                 1.7.1
- - python-dateutil         2.9.0.post0
- - pytz                    2025.2
- - PyYAML                  6.0.2
- - requests                2.32.3
- - rich                    14.0.0
- - scikit-learn            1.6.1
- - scipy                   1.15.3
- - selenium                4.33.0
- - setuptools              80.7.1
- - six                     1.17.0
- - smmap                   5.0.2
- - sniffio                 1.3.1
- - sortedcontainers        2.4.0
- - soupsieve               2.7
- - sympy                   1.14.0
- - ta                      0.11.0
- - ta-lib                  0.6.3
- - tensorboard             2.16.2
- - tensorboard-data-server 0.7.2
- - tensorflow              2.16.1
- - tensorflow-intel        2.16.1
- - termcolor               3.1.0
- - tf2onnx                 1.16.1
- - threadpoolctl           3.6.0
- - toolz                   1.0.0
- - torch                   2.7.0
- - trio                    0.30.0
- - trio-websocket          0.12.2
- - typing_extensions       4.13.2
- - tzdata                  2025.2
- - urllib3                 2.4.0
- - websocket-client        1.8.0
- - websockets              15.0.1
- - Werkzeug                3.1.3
- - wheel                   0.45.1
- - wrapt                   1.17.2
- - wsproto                 1.2.0
- - yfinance                0.2.61
+Наименование всех столбцов:
+Time (EET), Ask, Bid, AskVolume, BidVolume
 
-Сканирование завершено
+Первые 6 строк (как в Блокноте):
+Строка 1: Time (EET);Ask;Bid;AskVolume;BidVolume
+Строка 2: 2020.01.02 01:00:04.735;1519,592;1518,768;0,00037;0,00037
+Строка 3: 2020.01.02 01:00:04.836;1519,742;1518,858;0,00037;0,00037
+Строка 4: 2020.01.02 01:00:04.938;1519,792;1518,908;0,00037;0,00037
+Строка 5: 2020.01.02 01:00:05.238;1519,912;1518,968;0,00037;0,00037
+Строка 6: 2020.01.02 01:00:05.559;1519,892;1519,038;0,00037;0,00037
+
+Последние 5 строк (как в Блокноте):
+Строка 1: 2025.05.23 23:59:57.834;3358,335;3357,645;0,00022;0,00022
+Строка 2: 2025.05.23 23:59:58.136;3358,365;3357,675;0,00022;0,00022
+Строка 3: 2025.05.23 23:59:58.438;3358,315;3357,519;0,00022;0,00022
+Строка 4: 2025.05.23 23:59:59.090;3358,441;3357,519;0,00022;0,00022
+Строка 5: 2025.05.23 23:59:59.141;3358,765;3356,575;0,00022;0,00022
+
+Каждый символ второй строки:
+Символ 1: '2'
+Символ 2: '0'
+Символ 3: '2'
+Символ 4: '0'
+Символ 5: '.'
+Символ 6: '0'
+Символ 7: '1'
+Символ 8: '.'
+Символ 9: '0'
+Символ 10: '2'
+Символ 11: ' '
+Символ 12: '0'
+Символ 13: '1'
+Символ 14: ':'
+Символ 15: '0'
+Символ 16: '0'
+Символ 17: ':'
+Символ 18: '0'
+Символ 19: '4'
+Символ 20: '.'
+Символ 21: '7'
+Символ 22: '3'
+Символ 23: '5'
+Символ 24: ';'
+Символ 25: '1'
+Символ 26: '5'
+Символ 27: '1'
+Символ 28: '9'
+Символ 29: ','
+Символ 30: '5'
+Символ 31: '9'
+Символ 32: '2'
+Символ 33: ';'
+Символ 34: '1'
+Символ 35: '5'
+Символ 36: '1'
+Символ 37: '8'
+Символ 38: ','
+Символ 39: '7'
+Символ 40: '6'
+Символ 41: '8'
+Символ 42: ';'
+Символ 43: '0'
+Символ 44: ','
+Символ 45: '0'
+Символ 46: '0'
+Символ 47: '0'
+Символ 48: '3'
+Символ 49: '7'
+Символ 50: ';'
+Символ 51: '0'
+Символ 52: ','
+Символ 53: '0'
+Символ 54: '0'
+Символ 55: '0'
+Символ 56: '3'
+Символ 57: '7'
+
+Описательная статистика для числовых столбцов:
+
+Столбец: Ask
+count    282780445.000000
+mean          2058.208208
+std            420.126653
+min           1451.492000
+25%           1788.185000
+50%           1903.522000
+75%           2329.452000
+max           3500.515000
+
+Столбец: Bid
+count    282780445.000000
+mean          2057.800669
+std            420.075224
+min           1451.148000
+25%           1787.805000
+50%           1903.163000
+75%           2329.048000
+max           3499.915000
+
+Столбец: AskVolume
+count    282780445.000000
+mean             0.000252
+std              0.000186
+min              0.000010
+25%              0.000150
+50%              0.000260
+75%              0.000670
+max              0.190000
+
+Столбец: BidVolume
+count    282780445.000000
+mean             0.000255
+std              0.000193
+min              0.000010
+25%              0.000150
+50%              0.000270
+75%              0.000670
+max              0.190000
+
+
+на данный момент: 
+
+Папка: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_other
+  - XAUUSD_1 Min_Ask_2020.01.01_2025.05.25_cleaned.csv
+  - XAUUSD_1 Min_Bid_2020.01.01_2025.05.25_cleaned.csv
+  - XAUUSD_15 Mins_Ask_2020.01.01_2025.05.25_cleaned.csv
+  - XAUUSD_15 Mins_Bid_2020.01.01_2025.05.25_cleaned.csv
+  - XAUUSD_30 Mins_Ask_2020.01.01_2025.05.25_cleaned.csv
+  - XAUUSD_30 Mins_Bid_2020.01.01_2025.05.25_cleaned.csv
+  - XAUUSD_4 Hours_Ask_2020.01.01_2025.05.25_cleaned.csv
+  - XAUUSD_4 Hours_Bid_2020.01.01_2025.05.25_cleaned.csv
+  - XAUUSD_5 Mins_Ask_2020.01.01_2025.05.25_cleaned.csv
+  - XAUUSD_5 Mins_Bid_2020.01.01_2025.05.25_cleaned.csv
+  - XAUUSD_Daily_Ask_2020.01.01_2025.05.25_cleaned.csv
+  - XAUUSD_Daily_Bid_2020.01.01_2025.05.25_cleaned.csv
+  - XAUUSD_Hourly_Ask_2020.01.01_2025.05.25_cleaned.csv
+  - XAUUSD_Hourly_Bid_2020.01.01_2025.05.25_cleaned.csv
+
+Папка: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_processed
+  - XAUUSD_1 Min_Ask_2020.01.01_2025.05.25_processed.csv
+  - XAUUSD_1 Min_Bid_2020.01.01_2025.05.25_processed.csv
+  - XAUUSD_15 Mins_Ask_2020.01.01_2025.05.25_processed.csv
+  - XAUUSD_15 Mins_Bid_2020.01.01_2025.05.25_processed.csv
+  - XAUUSD_30 Mins_Ask_2020.01.01_2025.05.25_processed.csv
+  - XAUUSD_30 Mins_Bid_2020.01.01_2025.05.25_processed.csv
+  - XAUUSD_4 Hours_Ask_2020.01.01_2025.05.25_processed.csv
+  - XAUUSD_4 Hours_Bid_2020.01.01_2025.05.25_processed.csv
+  - XAUUSD_5 Mins_Ask_2020.01.01_2025.05.25_processed.csv
+  - XAUUSD_5 Mins_Bid_2020.01.01_2025.05.25_processed.csv
+  - XAUUSD_Daily_Ask_2020.01.01_2025.05.25_processed.csv
+  - XAUUSD_Daily_Bid_2020.01.01_2025.05.25_processed.csv
+  - XAUUSD_Hourly_Ask_2020.01.01_2025.05.25_processed.csv
+  - XAUUSD_Hourly_Bid_2020.01.01_2025.05.25_processed.csv
+
+Папка: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\original
+  - XAUUSD_1 Min_Ask_2020.01.01_2025.05.25.csv
+  - XAUUSD_1 Min_Bid_2020.01.01_2025.05.25.csv
+  - XAUUSD_15 Mins_Ask_2020.01.01_2025.05.25.csv
+  - XAUUSD_15 Mins_Bid_2020.01.01_2025.05.25.csv
+  - XAUUSD_30 Mins_Ask_2020.01.01_2025.05.25.csv
+  - XAUUSD_30 Mins_Bid_2020.01.01_2025.05.25.csv
+  - XAUUSD_4 Hours_Ask_2020.01.01_2025.05.25.csv
+  - XAUUSD_4 Hours_Bid_2020.01.01_2025.05.25.csv
+  - XAUUSD_5 Mins_Ask_2020.01.01_2025.05.25.csv
+  - XAUUSD_5 Mins_Bid_2020.01.01_2025.05.25.csv
+  - XAUUSD_Daily_Ask_2020.01.01_2025.05.25.csv
+  - XAUUSD_Daily_Bid_2020.01.01_2025.05.25.csv
+  - XAUUSD_Hourly_Ask_2020.01.01_2025.05.25.csv
+  - XAUUSD_Hourly_Bid_2020.01.01_2025.05.25.csv
+  - XAUUSD_Ticks_2020.01.01_2025.05.25.csv
+
+Список установленных библиотек в проекте:
+  - absl-py==2.2.2
+  - astunparse==1.6.3
+  - attrs==25.3.0
+  - autocommand==2.2.2
+  - backports.tarfile==1.2.0
+  - beautifulsoup4==4.13.4
+  - certifi==2025.4.26
+  - cffi==1.17.1
+  - charset-normalizer==3.4.2
+  - click==8.2.1
+  - cloudpickle==3.1.1
+  - colorama==0.4.6
+  - coloredlogs==15.0.1
+  - contourpy==1.3.2
+  - cryptography==45.0.3
+  - curl-cffi==0.11.1
+  - cycler==0.12.1
+  - cython==3.1.0
+  - dask==2025.5.1
+  - deprecated==1.2.18
+  - filelock==3.18.0
+  - flatbuffers==25.2.10
+  - fonttools==4.58.0
+  - frozendict==2.4.6
+  - fsspec==2025.3.2
+  - gast==0.6.0
+  - gitdb==4.0.12
+  - gitpython==3.1.44
+  - google-pasta==0.2.0
+  - grpcio==1.71.0
+  - h11==0.16.0
+  - h5py==3.13.0
+  - humanfriendly==10.0
+  - idna==3.10
+  - importlib-metadata==8.0.0
+  - inflect==7.3.1
+  - jaraco.collections==5.1.0
+  - jaraco.context==5.3.0
+  - jaraco.functools==4.0.1
+  - jaraco.text==3.12.1
+  - jinja2==3.1.6
+  - joblib==1.5.0
+  - keras==3.9.2
+  - kiwisolver==1.4.8
+  - libclang==18.1.1
+  - locket==1.0.0
+  - markdown==3.8
+  - markdown-it-py==3.0.0
+  - markupsafe==3.0.2
+  - matplotlib==3.10.3
+  - mdurl==0.1.2
+  - metatrader5==5.0.4993
+  - ml-dtypes==0.3.2
+  - more-itertools==10.3.0
+  - mouseinfo==0.1.3
+  - mpmath==1.3.0
+  - multitasking==0.0.11
+  - namex==0.0.9
+  - networkx==3.4.2
+  - numpy==1.26.4
+  - onnx==1.17.0
+  - onnxruntime==1.17.0
+  - opt-einsum==3.4.0
+  - optree==0.15.0
+  - outcome==1.3.0.post0
+  - packaging==25.0
+  - pandas==2.2.3
+  - partd==1.4.2
+  - peewee==3.18.1
+  - pillow==11.2.1
+  - pip==25.1.1
+  - platformdirs==4.3.8
+  - protobuf==3.20.3
+  - pyarrow==20.0.0
+  - pyautogui==0.9.54
+  - pycparser==2.22
+  - pygetwindow==0.0.9
+  - pygithub==2.6.1
+  - pygments==2.19.1
+  - pyjwt==2.10.1
+  - pymsgbox==1.0.9
+  - pynacl==1.5.0
+  - pyparsing==3.2.3
+  - pyperclip==1.9.0
+  - pyreadline3==3.5.4
+  - pyrect==0.2.0
+  - pyscreeze==1.0.1
+  - pysocks==1.7.1
+  - python-dateutil==2.9.0.post0
+  - pytweening==1.2.0
+  - pytz==2025.2
+  - pyyaml==6.0.2
+  - requests==2.32.3
+  - rich==14.0.0
+  - scikit-learn==1.6.1
+  - scipy==1.15.3
+  - selenium==4.33.0
+  - setuptools==80.7.1
+  - six==1.17.0
+  - smmap==5.0.2
+  - sniffio==1.3.1
+  - sortedcontainers==2.4.0
+  - soupsieve==2.7
+  - sympy==1.14.0
+  - ta==0.11.0
+  - ta-lib==0.6.3
+  - tensorboard==2.16.2
+  - tensorboard-data-server==0.7.2
+  - tensorflow==2.16.1
+  - tensorflow-intel==2.16.1
+  - termcolor==3.1.0
+  - tf2onnx==1.16.1
+  - threadpoolctl==3.6.0
+  - tomli==2.0.1
+  - toolz==1.0.0
+  - torch==2.7.0
+  - trio==0.30.0
+  - trio-websocket==0.12.2
+  - typeguard==4.3.0
+  - typing-extensions==4.13.2
+  - tzdata==2025.2
+  - urllib3==2.4.0
+  - websocket-client==1.8.0
+  - websockets==15.0.1
+  - werkzeug==3.1.3
+  - wheel==0.45.1
+  - wrapt==1.17.2
+  - wsproto==1.2.0
+  - yfinance==0.2.61
+  - zipp==3.19.2
+
+
+
