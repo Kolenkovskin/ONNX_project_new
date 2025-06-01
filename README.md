@@ -1097,6 +1097,357 @@ dtype: int64
 
 
 
+C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\PycharmProjects\ONNX_bot\py\verify_cleaned_files.py 
+Скрипт запущен: 2025-06-01 14:51:45
+
+Проверка наличия файлов:
+Отсутствующие файлы: Все файлы присутствуют
+
+Файл: XAUUSD_1 Min_Ask_2020.01.01_2025.05.25_cleaned.csv
+Количество строк: 1913382
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume']
+Типы данных:
+Time (EET): object
+Open: float64
+High: float64
+Low: float64
+Close: float64
+Volume: float64
+Пропуски:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+Volume        0
+dtype: int64
+
+Файл: XAUUSD_1 Min_Bid_2020.01.01_2025.05.25_cleaned.csv
+Количество строк: 1913382
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume']
+Типы данных:
+Time (EET): object
+Open: float64
+High: float64
+Low: float64
+Close: float64
+Volume: float64
+Пропуски:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+Volume        0
+dtype: int64
+
+Файл: XAUUSD_15 Mins_Ask_2020.01.01_2025.05.25_cleaned.csv
+Количество строк: 127561
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume']
+Типы данных:
+Time (EET): object
+Open: float64
+High: float64
+Low: float64
+Close: float64
+Volume: float64
+Пропуски:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+Volume        0
+dtype: int64
+
+Файл: XAUUSD_15 Mins_Bid_2020.01.01_2025.05.25_cleaned.csv
+Количество строк: 127561
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume']
+Типы данных:
+Time (EET): object
+Open: float64
+High: float64
+Low: float64
+Close: float64
+Volume: float64
+Пропуски:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+Volume        0
+dtype: int64
+
+Файл: XAUUSD_30 Mins_Ask_2020.01.01_2025.05.25_cleaned.csv
+Количество строк: 63784
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume']
+Типы данных:
+Time (EET): object
+Open: float64
+High: float64
+Low: float64
+Close: float64
+Volume: float64
+Пропуски:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+Volume        0
+dtype: int64
+
+Файл: XAUUSD_30 Mins_Bid_2020.01.01_2025.05.25_cleaned.csv
+Количество строк: 63784
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume']
+Типы данных:
+Time (EET): object
+Open: float64
+High: float64
+Low: float64
+Close: float64
+Volume: float64
+Пропуски:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+Volume        0
+dtype: int64
+
+Файл: XAUUSD_4 Hours_Ask_2020.01.01_2025.05.25_cleaned.csv
+Количество строк: 8338
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume']
+Типы данных:
+Time (EET): object
+Open: float64
+High: float64
+Low: float64
+Close: float64
+Volume: float64
+Пропуски:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+Volume        0
+dtype: int64
+
+Файл: XAUUSD_4 Hours_Bid_2020.01.01_2025.05.25_cleaned.csv
+Количество строк: 8338
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume']
+Типы данных:
+Time (EET): object
+Open: float64
+High: float64
+Low: float64
+Close: float64
+Volume: float64
+Пропуски:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+Volume        0
+dtype: int64
+
+Файл: XAUUSD_5 Mins_Ask_2020.01.01_2025.05.25_cleaned.csv
+Количество строк: 382683
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume']
+Типы данных:
+Time (EET): object
+Open: float64
+High: float64
+Low: float64
+Close: float64
+Volume: float64
+Пропуски:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+Volume        0
+dtype: int64
+
+Файл: XAUUSD_5 Mins_Bid_2020.01.01_2025.05.25_cleaned.csv
+Количество строк: 382683
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume']
+Типы данных:
+Time (EET): object
+Open: float64
+High: float64
+Low: float64
+Close: float64
+Volume: float64
+Пропуски:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+Volume        0
+dtype: int64
+
+Файл: XAUUSD_Daily_Ask_2020.01.01_2025.05.25_cleaned.csv
+Количество строк: 1392
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume']
+Типы данных:
+Time (EET): object
+Open: float64
+High: float64
+Low: float64
+Close: float64
+Volume: float64
+Пропуски:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+Volume        0
+dtype: int64
+
+Файл: XAUUSD_Daily_Bid_2020.01.01_2025.05.25_cleaned.csv
+Количество строк: 1392
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume']
+Типы данных:
+Time (EET): object
+Open: float64
+High: float64
+Low: float64
+Close: float64
+Volume: float64
+Пропуски:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+Volume        0
+dtype: int64
+
+Файл: XAUUSD_Hourly_Ask_2020.01.01_2025.05.25_cleaned.csv
+Количество строк: 31902
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume']
+Типы данных:
+Time (EET): object
+Open: float64
+High: float64
+Low: float64
+Close: float64
+Volume: float64
+Пропуски:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+Volume        0
+dtype: int64
+
+Файл: XAUUSD_Hourly_Bid_2020.01.01_2025.05.25_cleaned.csv
+Количество строк: 31902
+Столбцы: ['Time (EET)', 'Open', 'High', 'Low', 'Close', 'Volume']
+Типы данных:
+Time (EET): object
+Open: float64
+High: float64
+Low: float64
+Close: float64
+Volume: float64
+Пропуски:
+Time (EET)    0
+Open          0
+High          0
+Low           0
+Close         0
+Volume        0
+dtype: int64
+
+Файл: XAUUSD_Renko_ONE_PIP_Ticks_Ask_2020.01.01_2025.05.25_cleaned.csv
+Количество строк: 18382606
+Столбцы: ['Time (EET)', 'EndTime', 'Open', 'High', 'Low', 'Close', 'Volume', 'WickPrice', 'OppositeWickPrice']
+Типы данных:
+Time (EET): object
+EndTime: object
+Open: float64
+High: float64
+Low: float64
+Close: float64
+Volume: float64
+WickPrice: object
+OppositeWickPrice: float64
+Пропуски:
+Time (EET)                  0
+EndTime                     0
+Open                        0
+High                        0
+Low                         0
+Close                       0
+Volume                      0
+WickPrice            16743587
+OppositeWickPrice    13009688
+dtype: int64
+
+Файл: XAUUSD_Renko_ONE_PIP_Ticks_Bid_2020.01.01_2025.05.25_cleaned.csv
+Количество строк: 18318295
+Столбцы: ['Time (EET)', 'EndTime', 'Open', 'High', 'Low', 'Close', 'Volume', 'WickPrice', 'OppositeWickPrice']
+Типы данных:
+Time (EET): object
+EndTime: object
+Open: float64
+High: float64
+Low: float64
+Close: float64
+Volume: float64
+WickPrice: object
+OppositeWickPrice: float64
+Пропуски:
+Time (EET)                  0
+EndTime                     0
+Open                        0
+High                        0
+Low                         0
+Close                       0
+Volume                      0
+WickPrice            16672705
+OppositeWickPrice    12911703
+dtype: int64
+
+Файл: XAUUSD_Ticks_2024.01.01_2025.05.25_cleaned.csv
+Количество строк: 83610923
+Столбцы: ['Time (EET)', 'Ask', 'Bid', 'AskVolume', 'BidVolume', 'Close', 'Open', 'High', 'Low']
+Типы данных:
+Time (EET): object
+Ask: float64
+Bid: float64
+AskVolume: float64
+BidVolume: float64
+Close: float64
+Open: float64
+High: float64
+Low: float64
+Пропуски:
+Time (EET)    0
+Ask           0
+Bid           0
+AskVolume     0
+BidVolume     0
+Close         0
+Open          0
+High          0
+Low           0
+dtype: int64
+Некорректные значения High < Low: 0
+Некорректные значения Close вне [Bid, Ask]: 0
+Проверка завершена.
+
+Process finished with exit code 0
 
 
 
