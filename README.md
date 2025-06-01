@@ -4096,7 +4096,7 @@ max      4.377838e+00
 
 Process finished with exit code 0
 
-были удалены XAUUSD_Renko_ONE_PIP_Ticks_Bid_2020.01.01_2025.05.25.csv и XAUUSD_Renko_ONE_PIP_Ticks_Ask_2020.01.01_2025.05.25.csv и все их обработки потому что они не доступны за нужный период, а так же XAUUSD_Ticks_2024.01.01_2025.05.25.csv и скачан вместо него C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\original\XAUUSD_Ticks_2020.01.01_2025.05.25.csv для "Если JForex4 не предоставляет Renko, загрузите тиковые данные за 2020–2025 и сгенерируйте Renko локально.".
+были удалены XAUUSD_Renko_ONE_PIP_Ticks_Bid_2020.01.01_2025.05.25.csv и XAUUSD_Renko_ONE_PIP_Ticks_Ask_2020.01.01_2025.05.25.csv и все их обработки потому что они не доступны за нужный период, а так же XAUUSD_Ticks_2024.01.01_2025.05.25.csv и все его обработки и скачан вместо него C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\original\XAUUSD_Ticks_2020.01.01_2025.05.25.csv для "Если JForex4 не предоставляет Renko, загрузите тиковые данные за 2020–2025 и сгенерируйте Renko локально.".
 
 
 Получение списка установленных библиотек...
