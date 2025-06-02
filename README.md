@@ -4271,6 +4271,36 @@ max              0.190000
   - XAUUSD_Hourly_Bid_2020.01.01_2025.05.25.csv
   - XAUUSD_Ticks_2020.01.01_2025.05.25.csv
 
+C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\PycharmProjects\ONNX_bot\py\split_and_generate_renko.py 
+Скрипт запущен: 2025-06-02 19:47:40
+
+Разбиение файла по годам...
+Время разбиения: 1770.58 секунд
+Созданы файлы: ['C:\\Users\\Estal\\PycharmProjects\\ONNX_bot\\csv\\jforex\\temp\\XAUUSD_Ticks_2020.csv', 'C:\\Users\\Estal\\PycharmProjects\\ONNX_bot\\csv\\jforex\\temp\\XAUUSD_Ticks_2021.csv', 'C:\\Users\\Estal\\PycharmProjects\\ONNX_bot\\csv\\jforex\\temp\\XAUUSD_Ticks_2022.csv', 'C:\\Users\\Estal\\PycharmProjects\\ONNX_bot\\csv\\jforex\\temp\\XAUUSD_Ticks_2023.csv', 'C:\\Users\\Estal\\PycharmProjects\\ONNX_bot\\csv\\jforex\\temp\\XAUUSD_Ticks_2024.csv', 'C:\\Users\\Estal\\PycharmProjects\\ONNX_bot\\csv\\jforex\\temp\\XAUUSD_Ticks_2025.csv']
+
+Обработка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\temp\XAUUSD_Ticks_2020.csv
+
+Обработка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\temp\XAUUSD_Ticks_2021.csv
+
+Обработка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\temp\XAUUSD_Ticks_2022.csv
+
+Обработка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\temp\XAUUSD_Ticks_2023.csv
+
+Обработка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\temp\XAUUSD_Ticks_2024.csv
+
+Обработка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\temp\XAUUSD_Ticks_2025.csv
+
+Сохранение результатов...
+Нет данных для Renko Ask
+Нет данных для Renko Bid
+
+Удаление временных файлов...
+
+Генерация Renko завершена. Общее время: 14564.42 секунд
+
+Process finished with exit code 0
+
+
 Список установленных библиотек в проекте:
   - absl-py==2.2.2
   - astunparse==1.6.3
