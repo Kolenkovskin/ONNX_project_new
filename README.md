@@ -4301,6 +4301,23 @@ C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\
 Process finished with exit code 0
 
 
+C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\PycharmProjects\ONNX_bot\py\split_and_generate_renko.py 
+[2025-06-03 07:29:22.309905] Скрипт запущен
+Разбиение файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\original\XAUUSD_Ticks_2020.01.01_2025.05.25.csv
+Время разбиения: 2504.58 секунд
+Обработка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\temp\XAUUSD_Ticks_2020.csv
+Обработка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\temp\XAUUSD_Ticks_2021.csv
+Обработка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\temp\XAUUSD_Ticks_2024.csv
+Обработка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\temp\XAUUSD_Ticks_2023.csv
+Обработка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\temp\XAUUSD_Ticks_2025.csv
+Обработка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\temp\XAUUSD_Ticks_2022.csv
+Сохранение результатов...
+Удаление временных файлов...
+Генерация Renko завершена. Общее время: 29065.57 секунд
+
+Process finished with exit code 0
+
+
 Список установленных библиотек в проекте:
   - absl-py==2.2.2
   - astunparse==1.6.3
