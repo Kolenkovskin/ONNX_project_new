@@ -4317,6 +4317,230 @@ C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\
 
 Process finished with exit code 0
 
+C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\PycharmProjects\ONNX_bot\py\check_renko_integrity.py 
+[2025-06-09 18:06:42.087222] Скрипт запущен
+
+Проверка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2020.csv
+Размер файла: 823.28 МБ
+Общее количество строк: 6548847
+Пропуски: 0
+Дубликаты: 0
+Монотонность времени: Да
+Аномалии в ценах (отрицательные или >10000): 0
+Аномалии в шаге Renko (не 0.1): 5548847
+Диапазон дат: 2020-01-02 01:00:04.836000 – 2020-12-31 23:59:58.045000
+
+Проверка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2021.csv
+Размер файла: 437.24 МБ
+Общее количество строк: 3477773
+Пропуски: 0
+Дубликаты: 0
+Монотонность времени: Да
+Аномалии в ценах (отрицательные или >10000): 0
+Аномалии в шаге Renko (не 0.1): 2477773
+Диапазон дат: 2021-01-04 01:00:00.464000 – 2021-12-31 23:59:55.220000
+
+Проверка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2022.csv
+Размер файла: 479.01 МБ
+Общее количество строк: 3829483
+Пропуски: 0
+Дубликаты: 0
+Монотонность времени: Да
+Аномалии в ценах (отрицательные или >10000): 0
+Аномалии в шаге Renko (не 0.1): 2829483
+Диапазон дат: 2022-01-03 01:00:00.295000 – 2022-12-30 23:58:48.239000
+
+Проверка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2023.csv
+Размер файла: 367.83 МБ
+Общее количество строк: 2923742
+Пропуски: 0
+Дубликаты: 0
+Монотонность времени: Да
+Аномалии в ценах (отрицательные или >10000): 0
+Аномалии в шаге Renko (не 0.1): 1923742
+Диапазон дат: 2023-01-03 01:00:05.099000 – 2023-12-29 23:58:52.791000
+
+Проверка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2024.csv
+Размер файла: 657.88 МБ
+Общее количество строк: 5268042
+Пропуски: 0
+Дубликаты: 0
+Монотонность времени: Да
+Аномалии в ценах (отрицательные или >10000): 0
+Аномалии в шаге Renko (не 0.1): 4268042
+Диапазон дат: 2024-01-02 01:00:01.170000 – 2024-12-31 23:58:51.931000
+
+Проверка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2025.csv
+Размер файла: 656.55 МБ
+Общее количество строк: 5263243
+Пропуски: 0
+Дубликаты: 0
+Монотонность времени: Да
+Аномалии в ценах (отрицательные или >10000): 0
+Аномалии в шаге Renko (не 0.1): 4263243
+Диапазон дат: 2025-01-02 01:00:00.557000 – 2025-05-23 23:59:59.141000
+
+Проверка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2020.csv
+Размер файла: 864.92 МБ
+Общее количество строк: 6877331
+Пропуски: 0
+Дубликаты: 0
+Монотонность времени: Да
+Аномалии в ценах (отрицательные или >10000): 0
+Аномалии в шаге Renko (не 0.1): 5877331
+Диапазон дат: 2020-01-02 01:00:04.938000 – 2020-12-31 23:59:58.242000
+
+Проверка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2021.csv
+Размер файла: 434.15 МБ
+Общее количество строк: 3450619
+Пропуски: 0
+Дубликаты: 0
+Монотонность времени: Да
+Аномалии в ценах (отрицательные или >10000): 0
+Аномалии в шаге Renko (не 0.1): 2450619
+Диапазон дат: 2021-01-04 01:00:00.464000 – 2021-12-31 23:59:58.279000
+
+Проверка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2022.csv
+Размер файла: 481.49 МБ
+Общее количество строк: 3843724
+Пропуски: 0
+Дубликаты: 0
+Монотонность времени: Да
+Аномалии в ценах (отрицательные или >10000): 0
+Аномалии в шаге Renko (не 0.1): 2843724
+Диапазон дат: 2022-01-03 01:00:00.396000 – 2022-12-30 23:58:48.239000
+
+Проверка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2023.csv
+Размер файла: 367.43 МБ
+Общее количество строк: 2918223
+Пропуски: 0
+Дубликаты: 0
+Монотонность времени: Да
+Аномалии в ценах (отрицательные или >10000): 0
+Аномалии в шаге Renko (не 0.1): 1918223
+Диапазон дат: 2023-01-03 01:00:05.099000 – 2023-12-29 23:58:52.791000
+
+Проверка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2024.csv
+Размер файла: 662.35 МБ
+Общее количество строк: 5284227
+Пропуски: 0
+Дубликаты: 0
+Монотонность времени: Да
+Аномалии в ценах (отрицательные или >10000): 0
+Аномалии в шаге Renko (не 0.1): 4284227
+Диапазон дат: 2024-01-02 01:00:01.170000 – 2024-12-31 23:58:51.477000
+
+Проверка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2025.csv
+Размер файла: 655.46 МБ
+Общее количество строк: 5256781
+Пропуски: 0
+Дубликаты: 0
+Монотонность времени: Да
+Аномалии в ценах (отрицательные или >10000): 0
+Аномалии в шаге Renko (не 0.1): 4256781
+Диапазон дат: 2025-01-02 01:00:00.557000 – 2025-05-23 23:59:59.141000
+Проверка завершена.
+
+Process finished with exit code 0
+
+из-за аномалий решено генерировать и проверять рэнко за один год
+
+C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\PycharmProjects\ONNX_bot\py\split_and_generate_renko.py 
+[2025-06-09 18:44:48.340219] Скрипт запущен
+Разбиение файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\original\XAUUSD_Ticks_2020.01.01_2025.05.25.csv для года 2020
+Время разбиения: 1341.25 секунд
+Обработка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\temp\XAUUSD_Ticks_2020.csv
+Сохранение Renko для года 2020...
+Удаление временных файлов...
+Генерация Renko завершена. Общее время: 6853.49 секунд
+
+Process finished with exit code 0
+
+C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\PycharmProjects\ONNX_bot\py\inspect_renko.py 
+[2025-06-09 20:51:16.939395] Скрипт запущен
+
+Анализ файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2020.csv
+Первые 5 строк (как в Блокноте):
+Строка 1: 2020-01-02 01:00:04.836,2020-01-02 01:00:04.836,1519.592,1519.692,1519.592,1519.692,0.00037
+Строка 2: 2020-01-02 01:00:05.238,2020-01-02 01:00:05.238,1519.692,1519.792,1519.692,1519.792,0.00037
+Строка 3: 2020-01-02 01:00:06.414,2020-01-02 01:00:06.414,1519.792,1519.8919999999998,1519.792,1519.8919999999998,0.00037
+Строка 4: 2020-01-02 01:00:06.414,2020-01-02 01:00:06.414,1519.8919999999998,1519.9919999999995,1519.8919999999998,1519.9919999999995,0.00037
+Строка 5: 2020-01-02 01:00:06.414,2020-01-02 01:00:06.414,1519.9919999999995,1520.0919999999996,1519.9919999999995,1520.0919999999996,0.00037
+
+Последние 5 строк (как в Блокноте):
+Строка 1: 2020-12-31 23:59:45.657,2020-12-31 23:59:45.657,1447.7920000000654,1447.7920000000654,1447.6920000000655,1447.6920000000655,7e-05
+Строка 2: 2020-12-31 23:59:45.657,2020-12-31 23:59:45.657,1447.6920000000655,1447.6920000000655,1447.5920000000656,1447.5920000000656,7e-05
+Строка 3: 2020-12-31 23:59:50.209,2020-12-31 23:59:50.209,1447.5920000000656,1447.6920000000655,1447.5920000000656,1447.6920000000655,7e-05
+Строка 4: 2020-12-31 23:59:58.045,2020-12-31 23:59:58.045,1447.6920000000655,1447.7920000000654,1447.6920000000655,1447.7920000000654,0.00037
+Строка 5: 2020-12-31 23:59:58.045,2020-12-31 23:59:58.045,1447.7920000000654,1447.8920000000653,1447.7920000000654,1447.8920000000653,0.00037
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2021.csv
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2022.csv
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2023.csv
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2024.csv
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2025.csv
+
+Анализ файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2020.csv
+Первые 5 строк (как в Блокноте):
+Строка 1: 2020-01-02 01:00:04.938,2020-01-02 01:00:04.938,1518.768,1518.868,1518.768,1518.868,0.00037
+Строка 2: 2020-01-02 01:00:05.559,2020-01-02 01:00:05.559,1518.868,1518.9679999999998,1518.868,1518.9679999999998,0.00037
+Строка 3: 2020-01-02 01:00:06.414,2020-01-02 01:00:06.414,1518.9679999999998,1519.0679999999998,1518.9679999999998,1519.0679999999998,0.00037
+Строка 4: 2020-01-02 01:00:06.414,2020-01-02 01:00:06.414,1519.0679999999998,1519.1679999999997,1519.0679999999998,1519.1679999999997,0.00037
+Строка 5: 2020-01-02 01:00:06.744,2020-01-02 01:00:06.744,1519.1679999999997,1519.2679999999996,1519.1679999999997,1519.2679999999996,0.00037
+
+Последние 5 строк (как в Блокноте):
+Строка 1: 2020-12-31 23:59:30.876,2020-12-31 23:59:30.876,1818.967999999727,1818.967999999727,1818.867999999727,1818.867999999727,7e-05
+Строка 2: 2020-12-31 23:59:57.892,2020-12-31 23:59:57.892,1818.867999999727,1818.967999999727,1818.867999999727,1818.967999999727,0.0003
+Строка 3: 2020-12-31 23:59:57.892,2020-12-31 23:59:57.892,1818.967999999727,1819.067999999727,1818.967999999727,1819.067999999727,0.0003
+Строка 4: 2020-12-31 23:59:58.242,2020-12-31 23:59:58.242,1819.067999999727,1819.067999999727,1818.967999999727,1818.967999999727,0.00037
+Строка 5: 2020-12-31 23:59:58.242,2020-12-31 23:59:58.242,1818.967999999727,1818.967999999727,1818.867999999727,1818.867999999727,0.00037
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2021.csv
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2022.csv
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2023.csv
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2024.csv
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2025.csv
+Анализ завершен.
+
+Process finished with exit code 0
+
+C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\PycharmProjects\ONNX_bot\py\check_renko_integrity.py 
+[2025-06-09 20:51:56.418649] Скрипт запущен
+
+Проверка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2020.csv
+Размер файла: 827.39 МБ
+Общее количество строк: 6581949
+Пропуски: 0
+Дубликаты: 0
+Монотонность времени: Нет
+Аномалии в ценах (отрицательные или >10000): 0
+Аномалии в шаге Renko (не 0.1): 5581949
+Диапазон дат: 2020-01-02 01:00:04.735000 – 2020-12-31 23:59:58.045000
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2021.csv
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2022.csv
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2023.csv
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2024.csv
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2025.csv
+
+Проверка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2020.csv
+Размер файла: 869.11 МБ
+Общее количество строк: 6910961
+Пропуски: 0
+Дубликаты: 63
+Монотонность времени: Нет
+Аномалии в ценах (отрицательные или >10000): 0
+Аномалии в шаге Renko (не 0.1): 5910961
+Диапазон дат: 2020-01-02 01:00:04.735000 – 2020-12-31 23:59:58.242000
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2021.csv
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2022.csv
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2023.csv
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2024.csv
+Файл не найден: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2025.csv
+Проверка завершена.
+
+Process finished with exit code 0
+
+
+
+
 
 Список установленных библиотек в проекте:
   - absl-py==2.2.2
