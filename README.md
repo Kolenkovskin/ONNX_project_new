@@ -4538,6 +4538,18 @@ C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\
 
 Process finished with exit code 0
 
+C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\PycharmProjects\ONNX_bot\py\split_and_generate_renko.py 
+[2025-06-09 21:59:27.861499] Скрипт запущен
+Разбиение файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\original\XAUUSD_Ticks_2020.01.01_2025.05.25.csv для года 2020
+Время разбиения: 1245.19 секунд
+Обработка файла: C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\temp\XAUUSD_Ticks_2020.csv
+Сохранение Renko для года 2020...
+Удаление временных файлов...
+Генерация Renko завершена. Общее время: 7413.48 секунд
+
+Process finished with exit code 0
+
+
 
 
 
