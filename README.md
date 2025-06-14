@@ -4549,7 +4549,20 @@ C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\
 
 Process finished with exit code 0
 
+проверка C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\original\XAUUSD_Ticks_2020.01.01_2025.05.25.csv:
 
+C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\PycharmProjects\ONNX_bot\py\check_tick_integrity.py 
+[2025-06-14 22:08:12.205966] Скрипт запущен
+Размер файла: 15879.08 МБ
+Общее количество строк: 282780446
+Дубликаты: 0
+Монотонность времени: True
+Диапазон дат: 2020-01-02 01:00:04.735000 – 2025-05-23 23:59:59.141000
+Аномалии в ценах (отрицательные или >10000): 0
+Частота изменений цены >= 0.1: 21286331 из 282780445 строк (7.53%)
+[2025-06-14 22:33:04.630552] Проверка завершена
+
+Process finished with exit code 0
 
 
 
