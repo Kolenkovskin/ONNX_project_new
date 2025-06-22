@@ -4620,7 +4620,7 @@ C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\
 
 Process finished with exit code 0
 
-были удалены файлы _cleaned & _processed из папок data_reworked_processed & data_reworked_cleaned и проводится проверка файлов в папке original для очистки и обработки этих файлов заново:
+были удалены файлы _cleaned & _processed из папок data_reworked_processed & data_reworked_other и переименовал data_reworked_other в data_reworked_cleaned и проводится проверка файлов в папке original для очистки и обработки этих файлов заново:
 
 
 C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\PycharmProjects\ONNX_bot\py\analyze_original_files.py 
