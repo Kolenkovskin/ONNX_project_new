@@ -5571,139 +5571,377 @@ C:\Users\Estal\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe C:\Users\Estal\
 
 Process finished with exit code 0
 
+проект был перенесён с диска c на диск d:
 
+D:\PycharmProjects\ONNX_bot\.venv\Scripts\python.exe D:\PycharmProjects\ONNX_bot\py\list_content.py 
+D:\PycharmProjects\ONNX_bot\py\list_content.py:2: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+Скрипт: list_project_structure.py, Версия: 1.0, Запуск: 2025-06-23 17:07:52, Ожидаемое время выполнения: ~1 минута
+Папка: .
+  Файл: .\.gitignore
+  Файл: .\README.md
+Папка: .git
+  Файл: .git\config
+  Файл: .git\description
+  Файл: .git\HEAD
+  Файл: .git\index
+Папка: .git\hooks
+  Файл: .git\hooks\applypatch-msg.sample
+  Файл: .git\hooks\commit-msg.sample
+  Файл: .git\hooks\fsmonitor-watchman.sample
+  Файл: .git\hooks\post-update.sample
+  Файл: .git\hooks\pre-applypatch.sample
+  Файл: .git\hooks\pre-commit.sample
+  Файл: .git\hooks\pre-merge-commit.sample
+  Файл: .git\hooks\pre-push.sample
+  Файл: .git\hooks\pre-rebase.sample
+  Файл: .git\hooks\pre-receive.sample
+  Файл: .git\hooks\prepare-commit-msg.sample
+  Файл: .git\hooks\push-to-checkout.sample
+  Файл: .git\hooks\sendemail-validate.sample
+  Файл: .git\hooks\update.sample
+Папка: .git\info
+  Файл: .git\info\exclude
+Папка: .git\logs
+  Файл: .git\logs\HEAD
+Папка: .git\logs\refs
+Папка: .git\logs\refs\heads
+  Файл: .git\logs\refs\heads\main
+Папка: .git\logs\refs\remotes
+Папка: .git\logs\refs\remotes\origin
+  Файл: .git\logs\refs\remotes\origin\main
+Папка: .git\objects
+Папка: .git\objects\11
+  Файл: .git\objects\11\5ee470ba7bd7ee0d13fcc835a2e02e173c9953
+Папка: .git\objects\12
+  Файл: .git\objects\12\a1d2cb0daece8f3bc35260495a2aca91b5ce6d
+Папка: .git\objects\14
+  Файл: .git\objects\14\7038c819fe087a20ceab47a9ae9ade5394e957
+Папка: .git\objects\1b
+  Файл: .git\objects\1b\7762ec1f6dc66b5047eeaaf2a92c838e4a15a4
+Папка: .git\objects\1d
+  Файл: .git\objects\1d\4e362c7e78b59e2d9ac5c0113c4e9ca8008a04
+Папка: .git\objects\24
+  Файл: .git\objects\24\d137ee7d5e3dd490a1d7834b157a83dec1304c
+Папка: .git\objects\28
+  Файл: .git\objects\28\b3ff7ce335e3a29d7a3e69590b540cd7a560e8
+Папка: .git\objects\2f
+  Файл: .git\objects\2f\596072d16fe852763e21b94febbd97261c33de
+Папка: .git\objects\30
+  Файл: .git\objects\30\cbd07f5e81d57d346c9e144255e77d169369a8
+Папка: .git\objects\38
+  Файл: .git\objects\38\f0126477925de4b0a3f22aeae0c8b0aef77f3a
+Папка: .git\objects\39
+  Файл: .git\objects\39\1e2b220535faf372aee9acc4f3bf28cc009c08
+Папка: .git\objects\3a
+  Файл: .git\objects\3a\28ed59c213ffbc4ac5789aa8f7ec6a86bfd27f
+Папка: .git\objects\3c
+  Файл: .git\objects\3c\96cf58e45e9edd658350021a302dc4f0071750
+Папка: .git\objects\41
+  Файл: .git\objects\41\95efcc740696c241005791237fa33f5d92923d
+Папка: .git\objects\43
+  Файл: .git\objects\43\071af8557edb48edf0db37d96b8d0dcb07318e
+Папка: .git\objects\46
+  Файл: .git\objects\46\3c25f15fb0b2bbf73d3969c58007396f010b38
+Папка: .git\objects\47
+  Файл: .git\objects\47\d21e5a35b5c4c132eb148d95ba04cdce8b2608
+Папка: .git\objects\4a
+  Файл: .git\objects\4a\8ec13d81e7f6d4f6982a745dea60d1d0867739
+Папка: .git\objects\5a
+  Файл: .git\objects\5a\33d44a4c166a3937e963a71aae98a3184a8f24
+Папка: .git\objects\5d
+  Файл: .git\objects\5d\5ca30b50bf4777f958d0013f1a62d67fd5dd81
+Папка: .git\objects\65
+  Файл: .git\objects\65\5365d527cd34e03464870b34aaff6ccfad0f75
+Папка: .git\objects\69
+  Файл: .git\objects\69\6e56cc47ba5dbe30e9e3043a4aec007cb9502c
+Папка: .git\objects\72
+  Файл: .git\objects\72\f4cb3239c8ec22f5ef07586a7b5c25c5647df1
+Папка: .git\objects\75
+  Файл: .git\objects\75\e491d319eff5210c7067cc5f9108315a962043
+Папка: .git\objects\77
+  Файл: .git\objects\77\826d92195c009bcba57e8a98196bb3bc06acd2
+Папка: .git\objects\7e
+  Файл: .git\objects\7e\fe890615427ca342ac919a961f7286658454f2
+Папка: .git\objects\82
+  Файл: .git\objects\82\2e3556d3357173b4218bd7ccf222d1f00fb2ef
+Папка: .git\objects\85
+  Файл: .git\objects\85\198112aaa95734ebe5ddd30bf6852c3e276287
+Папка: .git\objects\91
+  Файл: .git\objects\91\2df743a6390b2a36e626dca980c84b4cd5baef
+Папка: .git\objects\9a
+  Файл: .git\objects\9a\6992ae6057c7a5f3b23fb87591b3fdb8559166
+  Файл: .git\objects\9a\e57ad04371531b384554e5c62d395119be8647
+Папка: .git\objects\a4
+  Файл: .git\objects\a4\59807514f67ab644e234a6a8a88f36a03b5ee3
+Папка: .git\objects\af
+  Файл: .git\objects\af\0762a40124ec7c0700bd7b48da10e1b91dac1f
+  Файл: .git\objects\af\e463015a559a576ab534d5809d751b633a33a4
+Папка: .git\objects\b1
+  Файл: .git\objects\b1\580d67b3f2a836e4492d10cbc7aa03d9f999e1
+Папка: .git\objects\b2
+  Файл: .git\objects\b2\9ef12a04ad6e10a33426ca5c282413b0e56c79
+Папка: .git\objects\b3
+  Файл: .git\objects\b3\b0e47fe9e5eee54c2a595953c12084b315b082
+Папка: .git\objects\b6
+  Файл: .git\objects\b6\c6b7e9a7f32ed16574fb2fa808c567f551c60b
+Папка: .git\objects\b9
+  Файл: .git\objects\b9\01062aefee658a3b7aa451d30f91ac1cd4dda8
+Папка: .git\objects\d2
+  Файл: .git\objects\d2\ae2af97a5325e98939809ff8044c11d7c6b5b2
+Папка: .git\objects\e0
+  Файл: .git\objects\e0\2286d29639e80af577825348e3cb3146c60b8a
+  Файл: .git\objects\e0\caf8348f3327fc0f844f647077b869c3544b23
+Папка: .git\objects\e2
+  Файл: .git\objects\e2\420010fe0f3fe9651e44eefa491862d2c9752e
+Папка: .git\objects\e6
+  Файл: .git\objects\e6\e324d35b98310a8cb6b70d74edfcd657c7d8d8
+Папка: .git\objects\f0
+  Файл: .git\objects\f0\932e0bfae5b5f4b8377aff9606af09df250a26
+Папка: .git\objects\f9
+  Файл: .git\objects\f9\dcda70a478021c7a15f00a00886c0343b105e0
+Папка: .git\objects\fb
+  Файл: .git\objects\fb\6eb4b5030109b76c01caa0f1810a296296dc88
+Папка: .git\objects\info
+Папка: .git\objects\pack
+Папка: .git\refs
+Папка: .git\refs\heads
+  Файл: .git\refs\heads\main
+Папка: .git\refs\remotes
+Папка: .git\refs\remotes\origin
+  Файл: .git\refs\remotes\origin\main
+Папка: .git\refs\tags
+Папка: .idea
+  Файл: .idea\.gitignore
+  Файл: .idea\misc.xml
+  Файл: .idea\modules.xml
+  Файл: .idea\ONNX_bot.iml
+  Файл: .idea\vcs.xml
+  Файл: .idea\workspace.xml
+Папка: .idea\inspectionProfiles
+  Файл: .idea\inspectionProfiles\profiles_settings.xml
+Папка: csv
+Папка: csv\jforex
+Папка: csv\jforex\backup
+Папка: csv\jforex\data_reworked
+Папка: csv\jforex\data_reworked\data_reworked_cleaned
+  Файл: csv\jforex\data_reworked\data_reworked_cleaned\XAUUSD_1 Min_Ask_2020.01.01_2025.05.25_cleaned.csv
+  Файл: csv\jforex\data_reworked\data_reworked_cleaned\XAUUSD_1 Min_Bid_2020.01.01_2025.05.25_cleaned.csv
+  Файл: csv\jforex\data_reworked\data_reworked_cleaned\XAUUSD_15 Mins_Ask_2020.01.01_2025.05.25_cleaned.csv
+  Файл: csv\jforex\data_reworked\data_reworked_cleaned\XAUUSD_15 Mins_Bid_2020.01.01_2025.05.25_cleaned.csv
+  Файл: csv\jforex\data_reworked\data_reworked_cleaned\XAUUSD_30 Mins_Ask_2020.01.01_2025.05.25_cleaned.csv
+  Файл: csv\jforex\data_reworked\data_reworked_cleaned\XAUUSD_30 Mins_Bid_2020.01.01_2025.05.25_cleaned.csv
+  Файл: csv\jforex\data_reworked\data_reworked_cleaned\XAUUSD_4 Hours_Ask_2020.01.01_2025.05.25_cleaned.csv
+  Файл: csv\jforex\data_reworked\data_reworked_cleaned\XAUUSD_4 Hours_Bid_2020.01.01_2025.05.25_cleaned.csv
+  Файл: csv\jforex\data_reworked\data_reworked_cleaned\XAUUSD_5 Mins_Ask_2020.01.01_2025.05.25_cleaned.csv
+  Файл: csv\jforex\data_reworked\data_reworked_cleaned\XAUUSD_5 Mins_Bid_2020.01.01_2025.05.25_cleaned.csv
+  Файл: csv\jforex\data_reworked\data_reworked_cleaned\XAUUSD_Daily_Ask_2020.01.01_2025.05.25_cleaned.csv
+  Файл: csv\jforex\data_reworked\data_reworked_cleaned\XAUUSD_Daily_Bid_2020.01.01_2025.05.25_cleaned.csv
+  Файл: csv\jforex\data_reworked\data_reworked_cleaned\XAUUSD_Hourly_Ask_2020.01.01_2025.05.25_cleaned.csv
+  Файл: csv\jforex\data_reworked\data_reworked_cleaned\XAUUSD_Hourly_Bid_2020.01.01_2025.05.25_cleaned.csv
+  Файл: csv\jforex\data_reworked\data_reworked_cleaned\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2020_2025.csv
+  Файл: csv\jforex\data_reworked\data_reworked_cleaned\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2020_2025.csv
+  Файл: csv\jforex\data_reworked\data_reworked_cleaned\XAUUSD_Ticks_2020.01.01_2025.05.25_cleaned.csv
+Папка: csv\jforex\data_reworked\data_with_indicators
+  Файл: csv\jforex\data_reworked\data_with_indicators\XAUUSD_1 Min_Ask_2020.01.01_2025.05.25_cleaned_indicators.csv
+  Файл: csv\jforex\data_reworked\data_with_indicators\XAUUSD_1 Min_Bid_2020.01.01_2025.05.25_cleaned_indicators.csv
+  Файл: csv\jforex\data_reworked\data_with_indicators\XAUUSD_15 Mins_Ask_2020.01.01_2025.05.25_cleaned_indicators.csv
+  Файл: csv\jforex\data_reworked\data_with_indicators\XAUUSD_15 Mins_Bid_2020.01.01_2025.05.25_cleaned_indicators.csv
+  Файл: csv\jforex\data_reworked\data_with_indicators\XAUUSD_30 Mins_Ask_2020.01.01_2025.05.25_cleaned_indicators.csv
+  Файл: csv\jforex\data_reworked\data_with_indicators\XAUUSD_30 Mins_Bid_2020.01.01_2025.05.25_cleaned_indicators.csv
+  Файл: csv\jforex\data_reworked\data_with_indicators\XAUUSD_4 Hours_Ask_2020.01.01_2025.05.25_cleaned_indicators.csv
+  Файл: csv\jforex\data_reworked\data_with_indicators\XAUUSD_4 Hours_Bid_2020.01.01_2025.05.25_cleaned_indicators.csv
+  Файл: csv\jforex\data_reworked\data_with_indicators\XAUUSD_5 Mins_Ask_2020.01.01_2025.05.25_cleaned_indicators.csv
+  Файл: csv\jforex\data_reworked\data_with_indicators\XAUUSD_5 Mins_Bid_2020.01.01_2025.05.25_cleaned_indicators.csv
+  Файл: csv\jforex\data_reworked\data_with_indicators\XAUUSD_Daily_Ask_2020.01.01_2025.05.25_cleaned_indicators.csv
+  Файл: csv\jforex\data_reworked\data_with_indicators\XAUUSD_Daily_Bid_2020.01.01_2025.05.25_cleaned_indicators.csv
+  Файл: csv\jforex\data_reworked\data_with_indicators\XAUUSD_Hourly_Ask_2020.01.01_2025.05.25_cleaned_indicators.csv
+  Файл: csv\jforex\data_reworked\data_with_indicators\XAUUSD_Hourly_Bid_2020.01.01_2025.05.25_cleaned_indicators.csv
+  Файл: csv\jforex\data_reworked\data_with_indicators\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2020_2025_indicators.csv
+  Файл: csv\jforex\data_reworked\data_with_indicators\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2020_2025_indicators.csv
+  Файл: csv\jforex\data_reworked\data_with_indicators\XAUUSD_Ticks_2020.01.01_2025.05.25_cleaned_indicators.csv
+Папка: csv\jforex\logs
+Папка: csv\jforex\original
+  Файл: csv\jforex\original\XAUUSD_1 Min_Ask_2020.01.01_2025.05.25.csv
+  Файл: csv\jforex\original\XAUUSD_1 Min_Bid_2020.01.01_2025.05.25.csv
+  Файл: csv\jforex\original\XAUUSD_15 Mins_Ask_2020.01.01_2025.05.25.csv
+  Файл: csv\jforex\original\XAUUSD_15 Mins_Bid_2020.01.01_2025.05.25.csv
+  Файл: csv\jforex\original\XAUUSD_30 Mins_Ask_2020.01.01_2025.05.25.csv
+  Файл: csv\jforex\original\XAUUSD_30 Mins_Bid_2020.01.01_2025.05.25.csv
+  Файл: csv\jforex\original\XAUUSD_4 Hours_Ask_2020.01.01_2025.05.25.csv
+  Файл: csv\jforex\original\XAUUSD_4 Hours_Bid_2020.01.01_2025.05.25.csv
+  Файл: csv\jforex\original\XAUUSD_5 Mins_Ask_2020.01.01_2025.05.25.csv
+  Файл: csv\jforex\original\XAUUSD_5 Mins_Bid_2020.01.01_2025.05.25.csv
+  Файл: csv\jforex\original\XAUUSD_Daily_Ask_2020.01.01_2025.05.25.csv
+  Файл: csv\jforex\original\XAUUSD_Daily_Bid_2020.01.01_2025.05.25.csv
+  Файл: csv\jforex\original\XAUUSD_Hourly_Ask_2020.01.01_2025.05.25.csv
+  Файл: csv\jforex\original\XAUUSD_Hourly_Bid_2020.01.01_2025.05.25.csv
+  Файл: csv\jforex\original\XAUUSD_Ticks_2020.01.01_2025.05.25.csv
+Папка: csv\jforex\split_files
+  Файл: csv\jforex\split_files\XAUUSD_1 Min_Ask_2020.01.01_2025.05.25_trimmed.csv
+  Файл: csv\jforex\split_files\XAUUSD_1 Min_Bid_2020.01.01_2025.05.25_trimmed.csv
+  Файл: csv\jforex\split_files\XAUUSD_15 Mins_Ask_2020.01.01_2025.05.25_trimmed.csv
+  Файл: csv\jforex\split_files\XAUUSD_15 Mins_Bid_2020.01.01_2025.05.25_trimmed.csv
+  Файл: csv\jforex\split_files\XAUUSD_30 Mins_Ask_2020.01.01_2025.05.25_trimmed.csv
+  Файл: csv\jforex\split_files\XAUUSD_30 Mins_Bid_2020.01.01_2025.05.25_trimmed.csv
+  Файл: csv\jforex\split_files\XAUUSD_4 Hours_Ask_2020.01.01_2025.05.25_trimmed.csv
+  Файл: csv\jforex\split_files\XAUUSD_4 Hours_Bid_2020.01.01_2025.05.25_trimmed.csv
+  Файл: csv\jforex\split_files\XAUUSD_5 Mins_Ask_2020.01.01_2025.05.25_trimmed.csv
+  Файл: csv\jforex\split_files\XAUUSD_5 Mins_Bid_2020.01.01_2025.05.25_trimmed.csv
+  Файл: csv\jforex\split_files\XAUUSD_Daily_Ask_2020.01.01_2025.05.25_trimmed.csv
+  Файл: csv\jforex\split_files\XAUUSD_Daily_Bid_2020.01.01_2025.05.25_trimmed.csv
+  Файл: csv\jforex\split_files\XAUUSD_Hourly_Ask_2020.01.01_2025.05.25_trimmed.csv
+  Файл: csv\jforex\split_files\XAUUSD_Hourly_Bid_2020.01.01_2025.05.25_trimmed.csv
+Папка: csv\jforex\temp
+Папка: csv\orderbook
+Папка: exe
+  Файл: exe\chromedriver.exe
+Папка: h5
+Папка: logs
+  Файл: logs\renko_errors.log
+Папка: mqh
+Папка: onnx
+Папка: png
 
-Список установленных библиотек в проекте:
-  - absl-py==2.2.2
-  - astunparse==1.6.3
-  - attrs==25.3.0
-  - autocommand==2.2.2
-  - backports.tarfile==1.2.0
-  - beautifulsoup4==4.13.4
-  - certifi==2025.4.26
-  - cffi==1.17.1
-  - charset-normalizer==3.4.2
-  - click==8.2.1
-  - cloudpickle==3.1.1
-  - colorama==0.4.6
-  - coloredlogs==15.0.1
-  - contourpy==1.3.2
-  - cryptography==45.0.3
-  - curl-cffi==0.11.1
-  - cycler==0.12.1
-  - cython==3.1.0
-  - dask==2025.5.1
-  - deprecated==1.2.18
-  - filelock==3.18.0
-  - flatbuffers==25.2.10
-  - fonttools==4.58.0
-  - frozendict==2.4.6
-  - fsspec==2025.3.2
-  - gast==0.6.0
-  - gitdb==4.0.12
-  - gitpython==3.1.44
-  - google-pasta==0.2.0
-  - grpcio==1.71.0
-  - h11==0.16.0
-  - h5py==3.13.0
-  - humanfriendly==10.0
-  - idna==3.10
-  - importlib-metadata==8.0.0
-  - inflect==7.3.1
-  - jaraco.collections==5.1.0
-  - jaraco.context==5.3.0
-  - jaraco.functools==4.0.1
-  - jaraco.text==3.12.1
-  - jinja2==3.1.6
-  - joblib==1.5.0
-  - keras==3.9.2
-  - kiwisolver==1.4.8
-  - libclang==18.1.1
-  - locket==1.0.0
-  - markdown==3.8
-  - markdown-it-py==3.0.0
-  - markupsafe==3.0.2
-  - matplotlib==3.10.3
-  - mdurl==0.1.2
-  - metatrader5==5.0.4993
-  - ml-dtypes==0.3.2
-  - more-itertools==10.3.0
-  - mouseinfo==0.1.3
-  - mpmath==1.3.0
-  - multitasking==0.0.11
-  - namex==0.0.9
-  - networkx==3.4.2
-  - numpy==1.26.4
-  - onnx==1.17.0
-  - onnxruntime==1.17.0
-  - opt-einsum==3.4.0
-  - optree==0.15.0
-  - outcome==1.3.0.post0
-  - packaging==25.0
-  - pandas==2.2.3
-  - partd==1.4.2
-  - peewee==3.18.1
-  - pillow==11.2.1
-  - pip==25.1.1
-  - platformdirs==4.3.8
-  - protobuf==3.20.3
-  - pyarrow==20.0.0
-  - pyautogui==0.9.54
-  - pycparser==2.22
-  - pygetwindow==0.0.9
-  - pygithub==2.6.1
-  - pygments==2.19.1
-  - pyjwt==2.10.1
-  - pymsgbox==1.0.9
-  - pynacl==1.5.0
-  - pyparsing==3.2.3
-  - pyperclip==1.9.0
-  - pyreadline3==3.5.4
-  - pyrect==0.2.0
-  - pyscreeze==1.0.1
-  - pysocks==1.7.1
-  - python-dateutil==2.9.0.post0
-  - pytweening==1.2.0
-  - pytz==2025.2
-  - pyyaml==6.0.2
-  - requests==2.32.3
-  - rich==14.0.0
-  - scikit-learn==1.6.1
-  - scipy==1.15.3
-  - selenium==4.33.0
-  - setuptools==80.7.1
-  - six==1.17.0
-  - smmap==5.0.2
-  - sniffio==1.3.1
-  - sortedcontainers==2.4.0
-  - soupsieve==2.7
-  - sympy==1.14.0
-  - ta==0.11.0
-  - ta-lib==0.6.3
-  - tensorboard==2.16.2
-  - tensorboard-data-server==0.7.2
-  - tensorflow==2.16.1
-  - tensorflow-intel==2.16.1
-  - termcolor==3.1.0
-  - tf2onnx==1.16.1
-  - threadpoolctl==3.6.0
-  - tomli==2.0.1
-  - toolz==1.0.0
-  - torch==2.7.0
-  - trio==0.30.0
-  - trio-websocket==0.12.2
-  - typeguard==4.3.0
-  - typing-extensions==4.13.2
-  - tzdata==2025.2
-  - urllib3==2.4.0
-  - websocket-client==1.8.0
-  - websockets==15.0.1
-  - werkzeug==3.1.3
-  - wheel==0.45.1
-  - wrapt==1.17.2
-  - wsproto==1.2.0
-  - yfinance==0.2.61
-  - zipp==3.19.2
+Папка: py\__pycache__
+Папка: txt
+
+Установленные библиотеки и зависимости:
+  absl-py==2.2.2
+  astunparse==1.6.3
+  attrs==25.3.0
+  autocommand==2.2.2
+  backports.tarfile==1.2.0
+  beautifulsoup4==4.13.4
+  certifi==2025.4.26
+  cffi==1.17.1
+  charset-normalizer==3.4.2
+  click==8.2.1
+  cloudpickle==3.1.1
+  colorama==0.4.6
+  coloredlogs==15.0.1
+  contourpy==1.3.2
+  cryptography==45.0.3
+  curl-cffi==0.11.1
+  cycler==0.12.1
+  cython==3.1.0
+  dask==2025.5.1
+  deprecated==1.2.18
+  filelock==3.18.0
+  flatbuffers==25.2.10
+  fonttools==4.58.0
+  frozendict==2.4.6
+  fsspec==2025.3.2
+  gast==0.6.0
+  gitdb==4.0.12
+  gitpython==3.1.44
+  google-pasta==0.2.0
+  grpcio==1.71.0
+  h11==0.16.0
+  h5py==3.13.0
+  humanfriendly==10.0
+  idna==3.10
+  importlib-metadata==8.0.0
+  inflect==7.3.1
+  jaraco.collections==5.1.0
+  jaraco.context==5.3.0
+  jaraco.functools==4.0.1
+  jaraco.text==3.12.1
+  jinja2==3.1.6
+  joblib==1.5.0
+  keras==3.9.2
+  kiwisolver==1.4.8
+  libclang==18.1.1
+  locket==1.0.0
+  markdown-it-py==3.0.0
+  markdown==3.8
+  markupsafe==3.0.2
+  matplotlib==3.10.3
+  mdurl==0.1.2
+  metatrader5==5.0.4993
+  ml-dtypes==0.3.2
+  more-itertools==10.3.0
+  mouseinfo==0.1.3
+  mpmath==1.3.0
+  multitasking==0.0.11
+  namex==0.0.9
+  networkx==3.4.2
+  numpy==1.26.4
+  onnx==1.17.0
+  onnxruntime==1.17.0
+  opt-einsum==3.4.0
+  optree==0.15.0
+  outcome==1.3.0.post0
+  packaging==25.0
+  pandas-ta==0.3.14b0
+  pandas==2.2.3
+  partd==1.4.2
+  peewee==3.18.1
+  pillow==11.2.1
+  pip==25.1.1
+  platformdirs==4.3.8
+  protobuf==3.20.3
+  pyarrow==20.0.0
+  pyautogui==0.9.54
+  pycparser==2.22
+  pygetwindow==0.0.9
+  pygithub==2.6.1
+  pygments==2.19.1
+  pyjwt==2.10.1
+  pymsgbox==1.0.9
+  pynacl==1.5.0
+  pyparsing==3.2.3
+  pyperclip==1.9.0
+  pyreadline3==3.5.4
+  pyrect==0.2.0
+  pyscreeze==1.0.1
+  pysocks==1.7.1
+  python-dateutil==2.9.0.post0
+  pytweening==1.2.0
+  pytz==2025.2
+  pyyaml==6.0.2
+  requests==2.32.3
+  rich==14.0.0
+  scikit-learn==1.6.1
+  scipy==1.15.3
+  selenium==4.33.0
+  setuptools==80.7.1
+  six==1.17.0
+  smmap==5.0.2
+  sniffio==1.3.1
+  sortedcontainers==2.4.0
+  soupsieve==2.7
+  sympy==1.14.0
+  ta-lib==0.6.3
+  ta==0.11.0
+  tensorboard-data-server==0.7.2
+  tensorboard==2.16.2
+  tensorflow-intel==2.16.1
+  tensorflow==2.16.1
+  termcolor==3.1.0
+  tf2onnx==1.16.1
+  threadpoolctl==3.6.0
+  tomli==2.0.1
+  toolz==1.0.0
+  torch==2.7.0
+  trio-websocket==0.12.2
+  trio==0.30.0
+  typeguard==4.3.0
+  typing-extensions==4.13.2
+  tzdata==2025.2
+  urllib3==2.4.0
+  websocket-client==1.8.0
+  websockets==15.0.1
+  werkzeug==3.1.3
+  wheel==0.45.1
+  wrapt==1.17.2
+  wsproto==1.2.0
+  yfinance==0.2.61
+  zipp==3.19.2
+Скрипт: list_project_structure.py, Версия: 1.0, Завершение: 2025-06-23 17:07:52
+
+Process finished with exit code 0
+
 
 
 
