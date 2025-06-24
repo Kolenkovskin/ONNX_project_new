@@ -1,104 +1,117 @@
-# Метка: CheckRenkoIntegrity_20250529_1944
-# Дата и время запуска: 29 мая 2025, 19:44 EEST
-import os
-import shutil
+# Метка: check_renko_integrity_v7
+# Дата и время запуска: 2025-06-22 12:42:00
+# Ожидаемое время выполнения: ~360 секунд
+
 import pandas as pd
+import decimal
+import os
 from datetime import datetime, timedelta
+import time
 
-# Пути к папкам
-source_dir = r"C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\original"
-output_dir = r"C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked"
-print(f"[{datetime.now()}] Проверка целостности Renko файлов в папке {source_dir}")
+print(f"[{datetime.now()}] Скрипт check_renko_integrity_v7 запущен")
 
-# Создание выходной папки
-if not os.path.exists(output_dir):
-    os.makedirs(output_dir)
+# Расширенный список праздников (основные даты, когда рынок XAUUSD закрыт)
+HOLIDAYS = [
+    # Новый год
+    pd.Timestamp('2020-01-01'), pd.Timestamp('2021-01-01'), pd.Timestamp('2022-01-01'),
+    pd.Timestamp('2023-01-01'), pd.Timestamp('2024-01-01'), pd.Timestamp('2025-01-01'),
+    # Рождество
+    pd.Timestamp('2020-12-25'), pd.Timestamp('2021-12-25'), pd.Timestamp('2022-12-25'),
+    pd.Timestamp('2023-12-25'), pd.Timestamp('2024-12-25'),
+    # Пасха (примерные даты, так как точные зависят от календаря)
+    pd.Timestamp('2020-04-12'), pd.Timestamp('2021-04-04'), pd.Timestamp('2022-04-17'),
+    pd.Timestamp('2023-04-09'), pd.Timestamp('2024-03-31'),
+    # День благодарения (четвертый четверг ноября, США)
+    pd.Timestamp('2020-11-26'), pd.Timestamp('2021-11-25'), pd.Timestamp('2022-11-24'),
+    pd.Timestamp('2023-11-23'), pd.Timestamp('2024-11-28'),
+]
 
-# Проход по Renko файлам
-for file_name in os.listdir(source_dir):
-    if file_name.endswith(".csv") and "Renko" in file_name:
-        # Копирование файла в data_reworked
-        src_path = os.path.join(source_dir, file_name)
-        dst_path = os.path.join(output_dir, file_name)
-        shutil.copy(src_path, dst_path)
+def is_market_closed(start, end):
+    """Проверка, является ли разрыв рыночной паузой (выходные или праздники)."""
+    start_dt = pd.to_datetime(start)
+    end_dt = pd.to_datetime(end)
+    # Выходные: пятница 23:00 – воскресенье 23:00 EET
+    if start_dt.weekday() == 4 and start_dt.hour >= 23 and end_dt.weekday() == 6 and end_dt.hour >= 23:
+        return True
+    # Праздники
+    for holiday in HOLIDAYS:
+        if start_dt.date() <= holiday.date() <= end_dt.date():
+            return True
+    return False
 
-        print(f"\nОбработка файла: {file_name}")
-        try:
-            # Чтение скопированного файла
-            df = pd.read_csv(dst_path, sep=';', dtype={'WickPrice': 'object', 'OppositeWickPrice': 'object'})
+def check_file(file_path):
+    """Проверка целостности Renko-файла."""
+    print(f"Проверка файла: {file_path}")
+    try:
+        df = pd.read_csv(file_path, delimiter=';', encoding='utf-8-sig',
+                         names=['Time (EET)', 'EndTime', 'Open', 'High', 'Low', 'Close', 'Volume'], header=0)
+        total_rows = len(df)
+        missing_values = df.isna().sum().sum()
+        duplicates = df.duplicated().sum()
 
-            # Преобразование числовых столбцов
-            for col in ['Open', 'High', 'Low', 'Close', 'Volume', 'WickPrice', 'OppositeWickPrice']:
-                if col in df.columns:
-                    try:
-                        # Проверяем, можно ли преобразовать строку в float
-                        def safe_float(x):
-                            if pd.isna(x) or x is None:
-                                return x
-                            if isinstance(x, str):
-                                try:
-                                    return float(x.replace(',', '.'))
-                                except ValueError:
-                                    return x  # Оставляем как есть, если не удается преобразовать
-                            return x
+        df['Time (EET)'] = pd.to_datetime(df['Time (EET)'], format='%Y-%m-%d %H:%M:%S.%f')
+        non_monotonic = not df['Time (EET)'].is_monotonic_increasing
+        min_date = df['Time (EET)'].min()
+        max_date = df['Time (EET)'].max()
 
+        # Проверка разрывов в датах (>1 часа), исключая рыночные паузы
+        time_diffs = df['Time (EET)'].diff().dropna()
+        gaps = time_diffs[time_diffs > timedelta(hours=1)]
+        gap_count = 0
+        gap_details = []
+        for i, diff in zip(gaps.index, gaps):
+            start = df['Time (EET)'][i-1]
+            end = df['Time (EET)'][i]
+            if diff > timedelta(hours=1) and not is_market_closed(start, end):
+                gap_count += 1
+                gap_details.append((start, end, diff))
+        gap_details = gap_details[:10]  # Ограничить вывод первыми 10 разрывами
 
-                        df[col] = df[col].apply(safe_float)
+        time_mismatches = (df['Time (EET)'] != df['EndTime']).sum()
+        price_anomalies = ((df[['Open', 'High', 'Low', 'Close']] < 0) | (df[['Open', 'High', 'Low', 'Close']] > 10000)).sum().sum()
 
-                        # Диагностика проблемных строк (если остались нечисловые значения)
-                        problematic = df[df[col].apply(lambda x: isinstance(x, str))]
-                        if not problematic.empty:
-                            print(f"Проблемные строки в {col}:\n", problematic[[col]].head(5))
-                    except Exception as e:
-                        print(f"Ошибка преобразования столбца {col}: {str(e)}")
+        df['Open'] = df['Open'].apply(lambda x: decimal.Decimal(str(x)))
+        df['Close'] = df['Close'].apply(lambda x: decimal.Decimal(str(x)))
+        steps = (df['Close'] - df['Open']).apply(lambda x: abs(x).quantize(decimal.Decimal('0.1')))
+        step_anomalies = (steps != decimal.Decimal('0.1')).sum()
+        step_values = set(steps[steps != decimal.Decimal('0.1')].apply(lambda x: float(x)))
 
-            # 1. Количество строк
-            row_count = len(df)
-            print(f"Количество строк: {row_count}")
+        print(f"Размер файла: {os.path.getsize(file_path) / 1024**2:.2f} МБ")
+        print(f"Общее количество строк: {total_rows}")
+        print(f"Пропуски: {missing_values}")
+        print(f"Дубликаты: {duplicates}")
+        print(f"Монотонность времени: {not non_monotonic}")
+        print(f"Диапазон дат: {min_date} – {max_date}")
+        print(f"Отладка: Минимальная дата (первые строки): {min_date}")
+        print(f"Отладка: Максимальная дата (последние строки): {max_date}")
+        print(f"Несовпадения Time (EET) и EndTime: {time_mismatches}")
+        print(f"Аномалии в ценах (отрицательные или >10000): {price_anomalies}")
+        print(f"Аномалии в шаге Renko и Volume (не 0.1 или некорректный объём): {step_anomalies}")
+        if step_anomalies > 0:
+            print(f"Уникальные некорректные шаги: {sorted(step_values)}")
+        print(f"Разрывы в датах (>1 часа, исключая выходные и праздники): {gap_count}")
+        if gap_count > 0:
+            print("Детали разрывов (первые 10):")
+            for start, end, diff in gap_details:
+                print(f"Разрыв с {start} до {end} ({diff})")
+    except Exception as e:
+        print(f"Ошибка проверки файла {file_path}: {e}")
 
-            # 2. Проверка пропусков
-            missing_values = df.isnull().sum()
-            print(f"Пропуски в данных:\n{missing_values}")
+# Основной код
+start_time = time.time()
+try:
+    files = [
+        r"C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Ask_2020_2025.csv",
+        r"C:\Users\Estal\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\XAUUSD_Renko_ONE_PIP_Ticks_Bid_2020_2025.csv"
+    ]
+    for file_path in files:
+        if os.path.exists(file_path):
+            check_file(file_path)
+        else:
+            print(f"Файл не найден: {file_path}")
 
-            # 3. Проверка дубликатов
-            duplicates = df.duplicated().sum()
-            print(f"Количество дубликатов: {duplicates}")
+except Exception as e:
+    print(f"[{datetime.now()}] Ошибка: {e}")
 
-            # 4. Проверка формата времени
-            if "Time (EET)" in df.columns:
-                try:
-                    df["Time (EET)"] = pd.to_datetime(df["Time (EET)"])
-                    print("Формат времени корректен")
-                except Exception as e:
-                    print(f"Ошибка формата времени: {str(e)}")
-
-            # 5. Проверка монотонности времени
-            if "Time (EET)" in df.columns:
-                time_diff = df["Time (EET)"].diff().dropna()
-                non_monotonic = time_diff[time_diff <= pd.Timedelta(0)]
-                print(f"Нарушений монотонности времени: {len(non_monotonic)}")
-                if len(non_monotonic) > 0:
-                    print("Примеры нарушений:\n", non_monotonic.head())
-
-            # 6. Проверка положительности цен и объемов
-            price_columns = [col for col in df.columns if col in ["Open", "High", "Low", "Close"]]
-            volume_columns = [col for col in df.columns if col in ["Volume"]]
-
-            for col in price_columns:
-                negative_prices = df[col][df[col].apply(lambda x: isinstance(x, (int, float)) and x <= 0)]
-                print(f"Отрицательные/нулевые значения в {col}: {len(negative_prices)}")
-
-            for col in volume_columns:
-                negative_volumes = df[col][df[col].apply(lambda x: isinstance(x, (int, float)) and x < 0)]
-                print(f"Отрицательные значения в {col}: {len(negative_volumes)}")
-
-            # 7. Для Renko: проверка WickPrice и OppositeWickPrice
-            wick_missing = df["WickPrice"].isnull().sum()
-            opp_wick_missing = df["OppositeWickPrice"].isnull().sum()
-            print(f"Пропуски в WickPrice: {wick_missing}")
-            print(f"Пропуски в OppositeWickPrice: {opp_wick_missing}")
-
-        except Exception as e:
-            print(f"Ошибка при обработке файла {file_name}: {str(e)}")
-
-print("\nПроверка завершена")
+print(f"[{datetime.now()}] Проверка завершена")
+print(f"[{datetime.now()}] Генерация проверки завершена. Общее время: {time.time() - start_time:.2f} секунд")
