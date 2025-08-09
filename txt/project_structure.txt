@@ -1,0 +1,1309 @@
+Запуск скрипта: xAI_Marker_v1_ONNX_bot_structure_2025-08-09 19:15:28
+
+Папка: 
+  Подпапка: .git
+  Подпапка: .idea
+  Подпапка: csv
+  Подпапка: exe
+  Подпапка: h5
+  Подпапка: logs
+  Подпапка: mqh
+  Подпапка: onnx
+  Подпапка: png
+  Подпапка: py
+  Подпапка: txt
+  Файл: .gitignore
+Папка: .git
+  Подпапка: hooks
+  Подпапка: info
+  Подпапка: logs
+  Подпапка: objects
+  Подпапка: refs
+  Файл: AUTO_MERGE
+  Файл: COMMIT_EDITMSG
+  Файл: config
+  Файл: description
+  Файл: FETCH_HEAD
+  Файл: HEAD
+  Файл: index
+  Файл: MERGE_HEAD
+  Файл: MERGE_MODE
+  Файл: MERGE_MSG
+  Файл: ORIG_HEAD
+Папка: .git\hooks
+  Файл: applypatch-msg.sample
+  Файл: commit-msg.sample
+  Файл: fsmonitor-watchman.sample
+  Файл: post-update.sample
+  Файл: pre-applypatch.sample
+  Файл: pre-commit.sample
+  Файл: pre-merge-commit.sample
+  Файл: pre-push.sample
+  Файл: pre-rebase.sample
+  Файл: pre-receive.sample
+  Файл: prepare-commit-msg.sample
+  Файл: push-to-checkout.sample
+  Файл: sendemail-validate.sample
+  Файл: update.sample
+Папка: .git\info
+  Файл: exclude
+Папка: .git\logs
+  Подпапка: refs
+  Файл: HEAD
+Папка: .git\logs\refs
+  Подпапка: heads
+  Подпапка: remotes
+Папка: .git\logs\refs\heads
+  Файл: main
+Папка: .git\logs\refs\remotes
+  Подпапка: origin
+Папка: .git\logs\refs\remotes\origin
+  Файл: main
+Папка: .git\objects
+  Подпапка: 00
+  Подпапка: 01
+  Подпапка: 08
+  Подпапка: 0a
+  Подпапка: 11
+  Подпапка: 12
+  Подпапка: 14
+  Подпапка: 16
+  Подпапка: 1b
+  Подпапка: 1d
+  Подпапка: 1f
+  Подпапка: 21
+  Подпапка: 24
+  Подпапка: 28
+  Подпапка: 2f
+  Подпапка: 30
+  Подпапка: 35
+  Подпапка: 37
+  Подпапка: 38
+  Подпапка: 39
+  Подпапка: 3a
+  Подпапка: 3c
+  Подпапка: 3e
+  Подпапка: 41
+  Подпапка: 42
+  Подпапка: 43
+  Подпапка: 46
+  Подпапка: 47
+  Подпапка: 49
+  Подпапка: 4a
+  Подпапка: 4d
+  Подпапка: 4f
+  Подпапка: 50
+  Подпапка: 57
+  Подпапка: 5a
+  Подпапка: 5c
+  Подпапка: 5d
+  Подпапка: 61
+  Подпапка: 62
+  Подпапка: 65
+  Подпапка: 69
+  Подпапка: 6b
+  Подпапка: 71
+  Подпапка: 72
+  Подпапка: 75
+  Подпапка: 77
+  Подпапка: 79
+  Подпапка: 7d
+  Подпапка: 7e
+  Подпапка: 7f
+  Подпапка: 81
+  Подпапка: 82
+  Подпапка: 85
+  Подпапка: 88
+  Подпапка: 89
+  Подпапка: 8f
+  Подпапка: 90
+  Подпапка: 91
+  Подпапка: 92
+  Подпапка: 95
+  Подпапка: 98
+  Подпапка: 9a
+  Подпапка: 9e
+  Подпапка: 9f
+  Подпапка: a4
+  Подпапка: af
+  Подпапка: b0
+  Подпапка: b1
+  Подпапка: b2
+  Подпапка: b3
+  Подпапка: b5
+  Подпапка: b6
+  Подпапка: b9
+  Подпапка: ba
+  Подпапка: bb
+  Подпапка: be
+  Подпапка: bf
+  Подпапка: c2
+  Подпапка: c3
+  Подпапка: c9
+  Подпапка: d1
+  Подпапка: d2
+  Подпапка: d3
+  Подпапка: d6
+  Подпапка: d7
+  Подпапка: d8
+  Подпапка: e0
+  Подпапка: e2
+  Подпапка: e6
+  Подпапка: e8
+  Подпапка: ec
+  Подпапка: ee
+  Подпапка: f0
+  Подпапка: f1
+  Подпапка: f2
+  Подпапка: f7
+  Подпапка: f8
+  Подпапка: f9
+  Подпапка: fa
+  Подпапка: fb
+  Подпапка: fc
+  Подпапка: info
+  Подпапка: pack
+Папка: .git\objects\00
+  Файл: 239d4625f8a13fa2f87ae92d887875429e4df2
+Папка: .git\objects\01
+  Файл: 56bed18c5f4c3200555dead149a992c8cc66ad
+  Файл: f9a02eedfbe02369c65bc7c4dcdbfac7dc16b7
+Папка: .git\objects\08
+  Файл: 26cb766b6e468cee577044895ca30b3312e8b8
+Папка: .git\objects\0a
+  Файл: 57a1728f35e0ac2b2189321ca99efb68353d52
+Папка: .git\objects\11
+  Файл: 5ee470ba7bd7ee0d13fcc835a2e02e173c9953
+Папка: .git\objects\12
+  Файл: a1d2cb0daece8f3bc35260495a2aca91b5ce6d
+Папка: .git\objects\14
+  Файл: 7038c819fe087a20ceab47a9ae9ade5394e957
+Папка: .git\objects\16
+  Файл: df36a8dd299442c05da60b6f9bd08c56a1626b
+Папка: .git\objects\1b
+  Файл: 7762ec1f6dc66b5047eeaaf2a92c838e4a15a4
+Папка: .git\objects\1d
+  Файл: 4e362c7e78b59e2d9ac5c0113c4e9ca8008a04
+Папка: .git\objects\1f
+  Файл: bfa5227ffc0b6c5775cd2f5eb65e297630997f
+Папка: .git\objects\21
+  Файл: 80618646176539cbe2aef7009a753df3534caa
+Папка: .git\objects\24
+  Файл: d137ee7d5e3dd490a1d7834b157a83dec1304c
+  Файл: f7c49ca32402dc17219d6dd51fde2414049821
+Папка: .git\objects\28
+  Файл: b3ff7ce335e3a29d7a3e69590b540cd7a560e8
+Папка: .git\objects\2f
+  Файл: 596072d16fe852763e21b94febbd97261c33de
+Папка: .git\objects\30
+  Файл: cbd07f5e81d57d346c9e144255e77d169369a8
+Папка: .git\objects\35
+  Файл: 995ba5762161cce7afe93fe7a3670a9ca98500
+Папка: .git\objects\37
+  Файл: 702cf8a0de3c2e9b2764a95c4349ab23001680
+Папка: .git\objects\38
+  Файл: f0126477925de4b0a3f22aeae0c8b0aef77f3a
+Папка: .git\objects\39
+  Файл: 1e2b220535faf372aee9acc4f3bf28cc009c08
+Папка: .git\objects\3a
+  Файл: 28ed59c213ffbc4ac5789aa8f7ec6a86bfd27f
+  Файл: f08da00beffd50e38591fa754e891bcfc6a8ea
+Папка: .git\objects\3c
+  Файл: 96cf58e45e9edd658350021a302dc4f0071750
+  Файл: 9c032e0ccaf187211f3cdc33da858c05eef9d8
+  Файл: ed33408077f775f260330d86ed474da7621d5b
+Папка: .git\objects\3e
+  Файл: e929e0ada5258fd97c5894f548fd6ba50ace8a
+Папка: .git\objects\41
+  Файл: 95efcc740696c241005791237fa33f5d92923d
+Папка: .git\objects\42
+  Файл: 9ab91c1c5a1dddb6b36f08127c6fc888fff765
+  Файл: d9cf87fd0ad72fd5723614b26d40ab54615884
+Папка: .git\objects\43
+  Файл: 071af8557edb48edf0db37d96b8d0dcb07318e
+  Файл: 78c005132916c00c672b73e0e3a3bee62f7a14
+Папка: .git\objects\46
+  Файл: 3c25f15fb0b2bbf73d3969c58007396f010b38
+Папка: .git\objects\47
+  Файл: c1cf31acbade3d216bdfd3aa92c18d56f3a997
+  Файл: d21e5a35b5c4c132eb148d95ba04cdce8b2608
+Папка: .git\objects\49
+  Файл: b469d30b3b221e3f0dada3ba539505a2b829f1
+Папка: .git\objects\4a
+  Файл: 8ec13d81e7f6d4f6982a745dea60d1d0867739
+Папка: .git\objects\4d
+  Файл: 3fc9e08277c96bb79c289f6b499bb3206865e9
+Папка: .git\objects\4f
+  Файл: aadf86b26dbdb7e7e09398d2559bc608ca49ca
+Папка: .git\objects\50
+  Файл: 0b3266fdcbcf8c09a16aa8d66ebadb1e48f89c
+Папка: .git\objects\57
+  Файл: c4c09529a7f1f424767ec2fe9b5e7495d75a7f
+  Файл: e03c9e92979dd8b2a42f7032727641471cfe5e
+Папка: .git\objects\5a
+  Файл: 33d44a4c166a3937e963a71aae98a3184a8f24
+Папка: .git\objects\5c
+  Файл: aab4a0285fd3ed312842a35dc2c981afcab0c8
+Папка: .git\objects\5d
+  Файл: 5ca30b50bf4777f958d0013f1a62d67fd5dd81
+Папка: .git\objects\61
+  Файл: a1faf4cc70c3c74d7971dd6437d15e3d71b10c
+Папка: .git\objects\62
+  Файл: 3aa393b2337b65737e1cc5aa43b4e184be6ac6
+Папка: .git\objects\65
+  Файл: 4c6c62ff7c2e8eb404efe2d1692f24b99c4f1f
+  Файл: 5365d527cd34e03464870b34aaff6ccfad0f75
+  Файл: d2af9f5cfaf513ad30fd92cfc4b53656db7400
+Папка: .git\objects\69
+  Файл: 6e56cc47ba5dbe30e9e3043a4aec007cb9502c
+Папка: .git\objects\6b
+  Файл: 185bd0eba3f04b9ae10a379fe5993e1aaa7495
+Папка: .git\objects\71
+  Файл: 3e3a69bc9d7756365b1e689eb7310858cc4b5d
+Папка: .git\objects\72
+  Файл: 7dd5732f3cb0be15d00878d116fbbb1cf69f7f
+  Файл: f4cb3239c8ec22f5ef07586a7b5c25c5647df1
+Папка: .git\objects\75
+  Файл: 951305101ee67ba90973c72f40f446c4f5e042
+  Файл: e491d319eff5210c7067cc5f9108315a962043
+Папка: .git\objects\77
+  Файл: 826d92195c009bcba57e8a98196bb3bc06acd2
+Папка: .git\objects\79
+  Файл: 12d92d228f40e3c4db428c8077ef9e5c656e97
+Папка: .git\objects\7d
+  Файл: 2303c015af798de14037090d63483953b7e613
+  Файл: fdbd9acfa886c317c4a6d2740e33440c267cdd
+Папка: .git\objects\7e
+  Файл: a92d3caa918efba6a7a689dbc7ccfe70748096
+  Файл: fe890615427ca342ac919a961f7286658454f2
+Папка: .git\objects\7f
+  Файл: e065705ff91b56bd9ed587652d0c87a34d2977
+Папка: .git\objects\81
+  Файл: 927ae793b5ad0a6e4585a72749152d1f9eebd6
+Папка: .git\objects\82
+  Файл: 2e3556d3357173b4218bd7ccf222d1f00fb2ef
+Папка: .git\objects\85
+  Файл: 198112aaa95734ebe5ddd30bf6852c3e276287
+Папка: .git\objects\88
+  Файл: d649a3ab1019a1cab86c4d4a9bdc30317544af
+Папка: .git\objects\89
+  Файл: ea3f22069bad582587ad50cf6c81b8d7450298
+Папка: .git\objects\8f
+  Файл: c849a53f23e1f598fb3f2e492cd58746ee7883
+Папка: .git\objects\90
+  Файл: 62feb7d15c1d74cd5d34d825cd345f1226834b
+Папка: .git\objects\91
+  Файл: 2df743a6390b2a36e626dca980c84b4cd5baef
+Папка: .git\objects\92
+  Файл: addd01e8ea88e9322f4e1f6a7349deb70ec99c
+Папка: .git\objects\95
+  Файл: db69354dbdb49486423acbf58bd34e326b4e5f
+Папка: .git\objects\98
+  Файл: 056373731fe8c0d9f82bac0a0283613725f687
+  Файл: 28aa801ee29c3f9aca20c408437ea40f61418b
+Папка: .git\objects\9a
+  Файл: 6992ae6057c7a5f3b23fb87591b3fdb8559166
+  Файл: e57ad04371531b384554e5c62d395119be8647
+Папка: .git\objects\9e
+  Файл: 41f5145d37dfc537cf9fcf80f0efdde9d47f0d
+  Файл: cf0870d28bb07fb8649372ca428c1770fa504a
+Папка: .git\objects\9f
+  Файл: a94c8b5bc28f88d467e052c46f66896c9a2892
+Папка: .git\objects\a4
+  Файл: 59807514f67ab644e234a6a8a88f36a03b5ee3
+Папка: .git\objects\af
+  Файл: 0762a40124ec7c0700bd7b48da10e1b91dac1f
+  Файл: e463015a559a576ab534d5809d751b633a33a4
+Папка: .git\objects\b0
+  Файл: 77dc7af5293159bb65b50e72a48e47ecaab0a6
+Папка: .git\objects\b1
+  Файл: 580d67b3f2a836e4492d10cbc7aa03d9f999e1
+Папка: .git\objects\b2
+  Файл: 9ef12a04ad6e10a33426ca5c282413b0e56c79
+  Файл: f47cd668d0c3df4bf18639a68e793db99372af
+Папка: .git\objects\b3
+  Файл: b0e47fe9e5eee54c2a595953c12084b315b082
+Папка: .git\objects\b5
+  Файл: 09989fc001092261a86014081b582dffc52f28
+Папка: .git\objects\b6
+  Файл: c6b7e9a7f32ed16574fb2fa808c567f551c60b
+Папка: .git\objects\b9
+  Файл: 01062aefee658a3b7aa451d30f91ac1cd4dda8
+  Файл: 718ba861f8bda2198429852391a5f65d71dc2f
+Папка: .git\objects\ba
+  Файл: d9b212f0fd0cde6148376e106acb85450cd738
+Папка: .git\objects\bb
+  Файл: 92cb7a20c2817293563ace0604ad3b577a9d7d
+Папка: .git\objects\be
+  Файл: 4166d6ce607c0335c9099c1af689a7f274cedb
+  Файл: b027abb64f80df794790c310257b2b3997ef9e
+Папка: .git\objects\bf
+  Файл: 9851a43437c68182f947df83c8915224f8bb8d
+Папка: .git\objects\c2
+  Файл: e8b8e3814d14de16c88abb98b54bed2f1289ff
+Папка: .git\objects\c3
+  Файл: 0bcf8744e307a9553b886998b8c9287d5c7d76
+  Файл: 1fbf1d036bf7cd11404686878d2983c5e142de
+Папка: .git\objects\c9
+  Файл: 2693003e99c5a5ecfd4702035b2c583fc48e99
+  Файл: 3440c3900207f80ea9b8489c327f519d847e10
+  Файл: 6b743f4883e879cb4c9aad01fea6e3ef89a92d
+Папка: .git\objects\d1
+  Файл: f40509c07bad0ed79fccf5f53c8ac7e60c303e
+Папка: .git\objects\d2
+  Файл: ae2af97a5325e98939809ff8044c11d7c6b5b2
+Папка: .git\objects\d3
+  Файл: f576c57917eac1f3aef7ca7d45b301b0115cdc
+Папка: .git\objects\d6
+  Файл: b8a440e3bfd63844511fdadcbf775f96c0c86d
+Папка: .git\objects\d7
+  Файл: 291697ffde4038494db2e2088f3638abbe8178
+  Файл: 37a584a672e6aa6243269e80e0c9711ec1fb94
+Папка: .git\objects\d8
+  Файл: b0ed2d3ba80cd7748e710eb730837eea1fe492
+  Файл: c666c0aac23d097f4ed8f1de5c22ae39d929fc
+Папка: .git\objects\e0
+  Файл: 2286d29639e80af577825348e3cb3146c60b8a
+  Файл: caf8348f3327fc0f844f647077b869c3544b23
+Папка: .git\objects\e2
+  Файл: 420010fe0f3fe9651e44eefa491862d2c9752e
+  Файл: d21354aefd650110bc94cef61649207587491d
+Папка: .git\objects\e6
+  Файл: 9829803e4328627b271764c7b11213fda311a2
+  Файл: 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  Файл: e324d35b98310a8cb6b70d74edfcd657c7d8d8
+Папка: .git\objects\e8
+  Файл: b8ff0fd147e2fe4cbcecfcdaa48ac56c0c33cf
+Папка: .git\objects\ec
+  Файл: 818d6ef0617530688b0854ceb056595a58e4cd
+Папка: .git\objects\ee
+  Файл: 4ed474df4e0f0735a9909aca8075b596696e2b
+  Файл: bf47b3837f29c9065e26c12b462b4d0d5787e3
+Папка: .git\objects\f0
+  Файл: 932e0bfae5b5f4b8377aff9606af09df250a26
+Папка: .git\objects\f1
+  Файл: 9593520531645f3e73e46cbe65a2150ae20a22
+  Файл: dd8af59fd66d0f07bc70dc7bed07581aaf9370
+Папка: .git\objects\f2
+  Файл: aa82123b359e489ae8be546dc9ed6a98ad8ac0
+Папка: .git\objects\f7
+  Файл: 45ce6defc159e664ca102b902e40ccea7fc432
+  Файл: cf6cec9d93a2910433505154f56b4c899d18f8
+Папка: .git\objects\f8
+  Файл: 83d6c829a04b3d99b5ecdfebb1d336beb8e677
+Папка: .git\objects\f9
+  Файл: dcda70a478021c7a15f00a00886c0343b105e0
+Папка: .git\objects\fa
+  Файл: b559bf6d761067011b3f91db2ba055e3135b36
+Папка: .git\objects\fb
+  Файл: 6eb4b5030109b76c01caa0f1810a296296dc88
+Папка: .git\objects\fc
+  Файл: 1a0f22fbe93292fd2c90c41d336a09ace65369
+Папка: .git\objects\info
+Папка: .git\objects\pack
+  Файл: pack-bdc02fa094fa82ef28fc202aacc36d322455e37a.idx
+  Файл: pack-bdc02fa094fa82ef28fc202aacc36d322455e37a.pack
+  Файл: pack-bdc02fa094fa82ef28fc202aacc36d322455e37a.rev
+Папка: .git\refs
+  Подпапка: heads
+  Подпапка: remotes
+  Подпапка: tags
+Папка: .git\refs\heads
+  Файл: main
+Папка: .git\refs\remotes
+  Подпапка: origin
+Папка: .git\refs\remotes\origin
+  Файл: main
+Папка: .git\refs\tags
+Папка: .idea
+  Подпапка: inspectionProfiles
+  Файл: .gitignore
+  Файл: misc.xml
+  Файл: modules.xml
+  Файл: ONNX_bot.iml
+  Файл: vcs.xml
+  Файл: workspace.xml
+Папка: .idea\inspectionProfiles
+  Файл: profiles_settings.xml
+Папка: csv
+  Подпапка: jforex
+  Подпапка: orderbook
+Папка: csv\jforex
+  Подпапка: data_reworked
+  Подпапка: original
+Папка: csv\jforex\data_reworked
+  Подпапка: data_reworked_cleaned
+  Подпапка: data_with_indicators
+Папка: csv\jforex\data_reworked\data_reworked_cleaned
+  Файл: XAUUSD_1 Min_Ask_2020.01.01_2025.05.25_cleaned.csv
+  Файл: XAUUSD_1 Min_Bid_2020.01.01_2025.05.25_cleaned.csv
+  Файл: XAUUSD_15 Mins_Ask_2020.01.01_2025.05.25_cleaned.csv
+  Файл: XAUUSD_15 Mins_Bid_2020.01.01_2025.05.25_cleaned.csv
+  Файл: XAUUSD_30 Mins_Ask_2020.01.01_2025.05.25_cleaned.csv
+  Файл: XAUUSD_30 Mins_Bid_2020.01.01_2025.05.25_cleaned.csv
+  Файл: XAUUSD_4 Hours_Ask_2020.01.01_2025.05.25_cleaned.csv
+  Файл: XAUUSD_4 Hours_Bid_2020.01.01_2025.05.25_cleaned.csv
+  Файл: XAUUSD_5 Mins_Ask_2020.01.01_2025.05.25_cleaned.csv
+  Файл: XAUUSD_5 Mins_Bid_2020.01.01_2025.05.25_cleaned.csv
+  Файл: XAUUSD_Daily_Ask_2020.01.01_2025.05.25_cleaned.csv
+  Файл: XAUUSD_Daily_Bid_2020.01.01_2025.05.25_cleaned.csv
+  Файл: XAUUSD_Hourly_Ask_2020.01.01_2025.05.25_cleaned.csv
+  Файл: XAUUSD_Hourly_Bid_2020.01.01_2025.05.25_cleaned.csv
+  Файл: XAUUSD_Renko_ONE_PIP_Ticks_Ask_2020_2025.csv
+  Файл: XAUUSD_Renko_ONE_PIP_Ticks_Bid_2020_2025.csv
+  Файл: XAUUSD_Ticks_2020.01.01_2025.05.25_cleaned.csv
+Папка: csv\jforex\data_reworked\data_with_indicators
+  Файл: XAUUSD_1 Min_Ask_2020.01.01_2025.05.25_cleaned_indicators_cleaned.csv
+  Файл: XAUUSD_1 Min_Bid_2020.01.01_2025.05.25_cleaned_indicators_cleaned.csv
+  Файл: XAUUSD_1 Min_Ticks_2020.01.01_2025.05.25_cleaned_indicators_cleaned_sorted.csv
+  Файл: XAUUSD_15 Mins_Ask_2020.01.01_2025.05.25_cleaned_indicators_cleaned.csv
+  Файл: XAUUSD_15 Mins_Bid_2020.01.01_2025.05.25_cleaned_indicators_cleaned.csv
+  Файл: XAUUSD_30 Mins_Ask_2020.01.01_2025.05.25_cleaned_indicators_cleaned.csv
+  Файл: XAUUSD_30 Mins_Bid_2020.01.01_2025.05.25_cleaned_indicators_cleaned.csv
+  Файл: XAUUSD_4 Hours_Ask_2020.01.01_2025.05.25_cleaned_indicators_cleaned.csv
+  Файл: XAUUSD_4 Hours_Bid_2020.01.01_2025.05.25_cleaned_indicators_cleaned.csv
+  Файл: XAUUSD_5 Mins_Ask_2020.01.01_2025.05.25_cleaned_indicators_cleaned.csv
+  Файл: XAUUSD_5 Mins_Bid_2020.01.01_2025.05.25_cleaned_indicators_cleaned.csv
+  Файл: XAUUSD_Daily_Ask_2020.01.01_2025.05.25_cleaned_indicators_cleaned.csv
+  Файл: XAUUSD_Daily_Bid_2020.01.01_2025.05.25_cleaned_indicators_cleaned.csv
+  Файл: XAUUSD_Hourly_Ask_2020.01.01_2025.05.25_cleaned_indicators_cleaned.csv
+  Файл: XAUUSD_Hourly_Bid_2020.01.01_2025.05.25_cleaned_indicators_cleaned.csv
+  Файл: XAUUSD_Renko_ONE_PIP_Ask_With_Indicators_2020_2025.csv
+  Файл: XAUUSD_Renko_ONE_PIP_Bid_With_Indicators_2020_2025.csv
+Папка: csv\jforex\original
+  Файл: XAUUSD_1 Min_Ask_2020.01.01_2025.05.25.csv
+  Файл: XAUUSD_1 Min_Bid_2020.01.01_2025.05.25.csv
+  Файл: XAUUSD_15 Mins_Ask_2020.01.01_2025.05.25.csv
+  Файл: XAUUSD_15 Mins_Bid_2020.01.01_2025.05.25.csv
+  Файл: XAUUSD_30 Mins_Ask_2020.01.01_2025.05.25.csv
+  Файл: XAUUSD_30 Mins_Bid_2020.01.01_2025.05.25.csv
+  Файл: XAUUSD_4 Hours_Ask_2020.01.01_2025.05.25.csv
+  Файл: XAUUSD_4 Hours_Bid_2020.01.01_2025.05.25.csv
+  Файл: XAUUSD_5 Mins_Ask_2020.01.01_2025.05.25.csv
+  Файл: XAUUSD_5 Mins_Bid_2020.01.01_2025.05.25.csv
+  Файл: XAUUSD_Daily_Ask_2020.01.01_2025.05.25.csv
+  Файл: XAUUSD_Daily_Bid_2020.01.01_2025.05.25.csv
+  Файл: XAUUSD_Hourly_Ask_2020.01.01_2025.05.25.csv
+  Файл: XAUUSD_Hourly_Bid_2020.01.01_2025.05.25.csv
+  Файл: XAUUSD_Ticks_2020.01.01_2025.05.25.csv
+Папка: csv\orderbook
+Папка: exe
+Папка: h5
+Папка: logs
+Папка: mqh
+Папка: onnx
+Папка: png
+Папка: py
+  Файл: add_vwap_to_renko.py
+    Содержимое:
+import os
+import pandas as pd
+import datetime
+
+# Папки
+input_dir = r"C:\Users\User\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_with_indicators"
+output_dir = r"C:\Users\User\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_with_indicators"
+os.makedirs(output_dir, exist_ok=True)
+
+
+# Функция для добавления VWAP
+def add_vwap(file_path):
+    filename = os.path.basename(file_path)
+    output_file = os.path.join(output_dir, f"{filename.replace('.csv', '')}_vwap_fixed.csv")
+
+    print(f"Обработка файла: {filename}")
+    try:
+        # Загрузка файла
+        df = pd.read_csv(file_path, low_memory=False, parse_dates=['Time (EET)'])
+
+        # Проверка столбцов
+        if 'Close' not in df.columns or 'Volume' not in df.columns:
+            print(f"Ошибка: В файле {filename} отсутствуют столбцы 'Close' или 'Volume'")
+            return
+
+        # Пересчет VWAP
+        if df['Volume'].sum() > 0:
+            df['VWAP'] = (df['Close'] * df['Volume']).cumsum() / df['Volume'].cumsum()
+        else:
+            df['VWAP'] = df['Close']  # Запасной вариант
+            print(f"Предупреждение: Нулевые объемы в {filename}, VWAP = Close")
+
+        # Сохранение
+        df.to_csv(output_file, index=False)
+        print(f"VWAP добавлен. Файл сохранен: {output_file}")
+
+    except Exception as e:
+        print(f"Ошибка обработки {filename}: {str(e)}")
+
+
+# Основной код
+if __name__ == "__main__":
+    renko_files = [
+        os.path.join(input_dir, f)
+        for f in os.listdir(input_dir)
+        if f.startswith("XAUUSD_Renko_ONE_PIP") and f.endswith(".csv")
+    ]
+
+    print(f"Найдено Renko-файлов: {len(renko_files)}")
+
+    for file_path in renko_files:
+        add_vwap(file_path)
+
+    print("Обработка завершена.")
+    --- Конец содержимого ---
+  Файл: check_and_fix_renko_vwap.py
+    Содержимое:
+
+    --- Конец содержимого ---
+  Файл: check_indicator_files_detailed.py
+    Содержимое:
+import os
+import pandas as pd
+import numpy as np
+import random
+import datetime
+import talib  # Для перепроверки индикаторов; установите через pip если нет
+from multiprocessing import Pool, cpu_count  # Для параллельной обработки
+
+# Путь к папке с данными
+data_dir = r"C:\Users\User\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_with_indicators"
+
+# Путь к папке для вывода
+output_dir = r"C:\Users\User\PycharmProjects\ONNX_bot\txt"
+os.makedirs(output_dir, exist_ok=True)
+
+
+# Функция для анализа одного файла (для параллелизации)
+def analyze_file(file_path):
+    filename = os.path.basename(file_path)
+    output_filename = os.path.join(output_dir,
+                                   f"analysis_{filename.replace('.csv', '')}_{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.txt")
+    output = []
+
+    output.append(f"=== Анализ файла: {filename} ===")
+    output.append(f"Время начала анализа: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+
+    try:
+        # Загрузка файла с оптимизацией для больших файлов
+        df = pd.read_csv(file_path, low_memory=False,
+                         parse_dates=['Time (EET)', 'EndTime'] if 'Time (EET)' in pd.read_csv(file_path,
+                                                                                              nrows=1).columns else None)
+        output.append(f"Форма DataFrame: {df.shape} (строк: {df.shape[0]}, столбцов: {df.shape[1]})")
+
+        # Общая информация
+        output.append("\n--- Общая информация ---")
+        info_str = str(df.info())
+        output.append(info_str)
+
+        # Описательная статистика
+        output.append("\n--- Описательная статистика ---")
+        output.append(str(df.describe()))
+
+        # Пропуски
+        output.append("\n--- Пропуски (NaN) ---")
+        nulls = df.isnull().sum()
+        output.append(str(nulls[nulls > 0]))
+
+        # Дубликаты
+        output.append("\n--- Дубликаты ---")
+        duplicates = df.duplicated().sum()
+        output.append(f"Количество дубликатов: {duplicates}")
+
+        # Последовательность времени
+        if 'Time (EET)' in df.columns:
+            df_sorted = df.sort_values('Time (EET)')
+            is_monotonic = df_sorted['Time (EET)'].is_monotonic_increasing
+            output.append(f"Временная последовательность monotonic_increasing: {is_monotonic}")
+            time_gaps = df_sorted['Time (EET)'].diff().dropna()
+            max_gap = time_gaps.max()
+            min_gap = time_gaps.min()
+            output.append(f"Макс. разрыв времени: {max_gap}, Мин. разрыв: {min_gap}")
+
+        # Аномалии
+        numeric_cols = df.select_dtypes(include=[np.number]).columns
+        for col in numeric_cols:
+            if 'Close' in col or 'Open' in col or 'High' in col or 'Low' in col:
+                anomalies_neg = (df[col] < 0).sum()
+                anomalies_extreme = (df[col] > 10000).sum()
+                output.append(
+                    f"Аномалии в {col}: Отрицательные: {anomalies_neg}, Экстремальные (>10000): {anomalies_extreme}")
+            if 'Volume' in col:
+                anomalies_neg_vol = (df[col] < 0).sum()
+                output.append(f"Аномалии в {col}: Отрицательные: {anomalies_neg_vol}")
+            if 'Spread' in col:
+                anomalies_spread = (df[col] > 10).sum()
+                output.append(f"Аномалии в Spread: >10 пунктов: {anomalies_spread}")
+
+        # Проверка индикаторов (перерасчет на выборке, если файл большой)
+        sample_size = min(1000, len(df))  # Для больших файлов проверяем на выборке
+        df_sample = df.sample(n=sample_size, random_state=42)
+
+        if all(col in df.columns for col in ['Close', 'EMA_20']):
+            recalculated_ema20 = talib.EMA(df_sample['Close'], timeperiod=20)
+            ema_match = np.allclose(df_sample['EMA_20'].dropna(), recalculated_ema20.dropna(), atol=1e-5)
+            output.append(f"Проверка EMA_20 (на выборке): Совпадает: {ema_match}")
+        if 'RSI_14' in df.columns:
+            recalculated_rsi = talib.RSI(df_sample['Close'], timeperiod=14)
+            rsi_match = np.allclose(df_sample['RSI_14'].dropna(), recalculated_rsi.dropna(), atol=1e-5)
+            output.append(
+                f"Проверка RSI_14 (на выборке): Совпадает: {rsi_match}, Аномалии (не в 0-100): {(df_sample['RSI_14'] < 0).sum() + (df_sample['RSI_14'] > 100).sum()}")
+        if 'ATR_14' in df.columns:
+            recalculated_atr = talib.ATR(df_sample['High'], df_sample['Low'], df_sample['Close'], timeperiod=14)
+            atr_match = np.allclose(df_sample['ATR_14'].dropna(), recalculated_atr.dropna(), atol=1e-5)
+            output.append(f"Проверка ATR_14 (на выборке): Совпадает: {atr_match}")
+        if 'VWAP' in df.columns and 'Volume' in df.columns:
+            recalculated_vwap = (df_sample['Close'] * df_sample['Volume']).cumsum() / df_sample['Volume'].cumsum()
+            vwap_match = np.allclose(df_sample['VWAP'].dropna(), recalculated_vwap.dropna(), atol=1e-5)
+            output.append(f"Проверка VWAP (на выборке): Совпадает: {vwap_match}")
+        if 'Fib_0_0' in df.columns:
+            recalculated_fib00 = df_sample['Low'].rolling(window=20).min()
+            fib_match = np.allclose(df_sample['Fib_0_0'].dropna(), recalculated_fib00.dropna(), atol=1e-5)
+            output.append(f"Проверка Fib_0_0 (на выборке): Совпадает: {fib_match}")
+        if 'CDL_DOJI' in df.columns:
+            recalculated_doji = talib.CDLDOJI(df_sample['Open'], df_sample['High'], df_sample['Low'],
+                                              df_sample['Close'])
+            doji_match = np.allclose(df_sample['CDL_DOJI'].dropna(), recalculated_doji.dropna(), atol=1e-5)
+            output.append(f"Проверка CDL_DOJI (на выборке): Совпадает: {doji_match}")
+
+        # Ложные пробои
+        if all(col in df.columns for col in ['High', 'Low', 'Close', 'Open']):
+            false_breakouts = ((df['High'] > df['High'].shift(1)) & (df['Close'] < df['Open'])).sum()
+            output.append(f"Потенциальные ложные пробои: {false_breakouts}")
+
+        # Вывод строк
+        output.append("\n--- Первые 5 строк ---")
+        output.append(str(df.head(5)))
+
+        output.append("\n--- Последние 5 строк ---")
+        output.append(str(df.tail(5)))
+
+        # 15 случайных строк, исключая первые и последние 5
+        if len(df) > 10:
+            exclude_indices = list(range(5)) + list(range(len(df) - 5, len(df)))
+            df_middle = df.drop(exclude_indices)
+            random_rows = df_middle.sample(n=min(15, len(df_middle)),
+                                           random_state=random.randint(0, 10000))  # Random seed для уникальности
+            output.append("\n--- 15 случайных строк (из середины) ---")
+            output.append(str(random_rows))
+        else:
+            output.append("\n--- 15 случайных строк: Файл слишком мал ---")
+
+    except Exception as e:
+        output.append(f"Ошибка анализа: {str(e)}")
+
+    output.append(f"Время окончания анализа: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+
+    # Сохранение в отдельный файл
+    with open(output_filename, 'w', encoding='utf-8') as f:
+        f.write("\n".join(output))
+
+    # Подсчет строк и добавление в конец
+    with open(output_filename, 'r', encoding='utf-8') as f:
+        line_count = sum(1 for _ in f)
+    with open(output_filename, 'a', encoding='utf-8') as f:
+        f.write(f"\n\n=== Итог: Количество строк в этом файле: {line_count} ===")
+
+    return f"Анализ {filename} сохранен в {output_filename}"
+
+
+# Основной код
+if __name__ == "__main__":
+    # Список CSV файлов
+    csv_files = [os.path.join(data_dir, f) for f in os.listdir(data_dir) if f.endswith('.csv')]
+    print(f"Найдено файлов: {len(csv_files)}")
+
+    # Параллельная обработка
+    with Pool(processes=cpu_count() // 2) as pool:
+        results = pool.map(analyze_file, csv_files)
+
+    # Вывод результатов
+    for result in results:
+        print(result)
+
+    print("Анализ всех файлов завершен.")
+    --- Конец содержимого ---
+  Файл: check_renko_vwap.py
+    Содержимое:
+import os
+import pandas as pd
+
+# Папка с Renko-файлами
+data_dir = r"C:\Users\User\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_with_indicators"
+
+# Настройка pandas
+pd.set_option('display.max_colwidth', None)
+pd.set_option('display.float_format', '{:.6f}'.format)
+pd.set_option('display.max_columns', None)
+
+
+# Функция для проверки VWAP в файле
+def check_vwap(file_path):
+    filename = os.path.basename(file_path)
+    print(f"\n=== Проверка файла: {filename} ===")
+
+    try:
+        # Загрузка первых 1000 строк для проверки первых 10
+        df_head = pd.read_csv(file_path, low_memory=False, parse_dates=['Time (EET)', 'EndTime'], nrows=1000)
+        print("VWAP пропуски:", df_head['VWAP'].isnull().sum())
+        print("\nVWAP vs Close (первые 10 строк):")
+        print(df_head[['VWAP', 'Close']].head(10))
+
+        # Загрузка строк 5,000,000–5,000,010
+        df_middle = pd.read_csv(file_path, low_memory=False, parse_dates=['Time (EET)', 'EndTime'],
+                                skiprows=range(1, 5000000), nrows=11)
+        print("\nVWAP vs Close (середина, строки 5,000,000–5,000,010):")
+        print(df_middle[['VWAP', 'Close']].iloc[:11])
+
+    except Exception as e:
+        print(f"Ошибка обработки {filename}: {str(e)}")
+
+
+# Основной код
+if __name__ == "__main__":
+    # Список Renko-файлов
+    renko_files = [
+        os.path.join(data_dir, f)
+        for f in os.listdir(data_dir)
+        if f.startswith("XAUUSD_Renko_ONE_PIP") and f.endswith(".csv")
+    ]
+
+    print(f"Найдено файлов: {len(renko_files)}")
+
+    for file_path in renko_files:
+        check_vwap(file_path)
+
+    print("\nПроверка завершена.")
+    --- Конец содержимого ---
+  Файл: clear_and_fill_repo.py
+    Содержимое:
+import os
+import shutil
+
+# Исходная и целевая директории
+SRC_DIR = r"C:\Users\User\PycharmProjects\ONNX_bot"
+DST_DIR = r"C:\Users\User\PycharmProjects\ONNX_project_new"
+
+# Куда складывать сэмплы
+SAMPLES_ROOT = os.path.join(DST_DIR, "data samples")
+SPECIAL_FOLDERS = {
+    "data_reworked_cleaned": os.path.join(SAMPLES_ROOT, "data_reworked_cleaned"),
+    "data_with_indicators": os.path.join(SAMPLES_ROOT, "data_with_indicators"),
+    "original": os.path.join(SAMPLES_ROOT, "original"),
+}
+
+# Сколько строк копировать для "сэмплов"
+N_ROWS = 1000
+
+def copy_file_sample(src, dst, n_rows=N_ROWS):
+    os.makedirs(os.path.dirname(dst), exist_ok=True)
+    with open(src, "r", encoding="utf-8") as fin, open(dst, "w", encoding="utf-8") as fout:
+        for i, line in enumerate(fin):
+            fout.write(line)
+            if i + 1 >= n_rows:
+                break
+
+def main():
+    for root, dirs, files in os.walk(SRC_DIR):
+        rel_root = os.path.relpath(root, SRC_DIR)
+        # Проверяем, не спец-папка ли это
+        for special_name, special_dst in SPECIAL_FOLDERS.items():
+            if rel_root.startswith(f"csv\\jforex\\{special_name}"):
+                # Копируем только сэмплы
+                for file in files:
+                    src_file = os.path.join(root, file)
+                    dst_file = os.path.join(special_dst, os.path.relpath(root, os.path.join(SRC_DIR, "csv", "jforex", special_name)), file)
+                    copy_file_sample(src_file, dst_file)
+                break
+        else:
+            # Копируем обычные файлы
+            for file in files:
+                src_file = os.path.join(root, file)
+                dst_file = os.path.join(DST_DIR, rel_root, file)
+                os.makedirs(os.path.dirname(dst_file), exist_ok=True)
+                shutil.copy2(src_file, dst_file)
+
+if __name__ == "__main__":
+    main()
+    --- Конец содержимого ---
+  Файл: generate_renko_from_ticks_with_indicators.py
+    Содержимое:
+import pandas as pd
+import os
+import sys
+import time
+import numpy as np
+import talib
+import psutil
+from multiprocessing import Pool, cpu_count
+import datetime
+
+
+def generate_renko_from_chunk(chunk, price_col, volume_col):
+    """Генерирует Renko-данные для заданного столбца цены и объема."""
+    renko_data = []
+    if chunk.empty or price_col not in chunk.columns or volume_col not in chunk.columns:
+        return pd.DataFrame(renko_data, columns=['Time (EET)', 'EndTime', 'Open', 'High', 'Low', 'Close', 'Volume'])
+
+    current_brick = chunk[price_col].iloc[0]
+    brick_start_time = chunk['Time (EET)'].iloc[0]
+    volume_accum = 0.0
+
+    for i in range(len(chunk)):
+        price = chunk[price_col].iloc[i]
+        time_current = chunk['Time (EET)'].iloc[i]
+        volume_accum += chunk[volume_col].iloc[i]
+
+        diff = price - current_brick
+        if abs(diff) >= 0.1:  # Размер кирпича Renko: 1 пункт (0.1)
+            num_bricks = int(abs(diff) / 0.1)
+            brick_direction = np.sign(diff)
+
+            for _ in range(num_bricks):
+                open_price = current_brick
+                close_price = current_brick + brick_direction * 0.1
+                high_price = max(open_price, close_price)
+                low_price = min(open_price, close_price)
+
+                renko_data.append(
+                    [brick_start_time, time_current, open_price, high_price, low_price, close_price, volume_accum])
+                current_brick = close_price
+                brick_start_time = time_current
+                volume_accum = 0.0
+
+    return pd.DataFrame(renko_data, columns=['Time (EET)', 'EndTime', 'Open', 'High', 'Low', 'Close', 'Volume'])
+
+
+if __name__ == '__main__':
+    UNIQUE_MARKER = f"UNIQUE_MARKER: generate_renko_fixed_2025-08-08_21-01-00"
+    print(UNIQUE_MARKER)
+    start_time = time.time()
+    print(f"[{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Скрипт generate_renko_fixed запущен")
+
+    # Проверка памяти
+    memory = psutil.virtual_memory()
+    print(f"Доступная память: {memory.available / (1024 ** 3):.2f} GB")
+
+    # Путь к тиковому файлу
+    file_path = r"C:\Users\User\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_cleaned\XAUUSD_Ticks_2020.01.01_2025.05.25_cleaned.csv"
+
+    if not os.path.exists(file_path):
+        print(f"Файл не найден: {file_path}")
+        sys.exit(1)
+
+    # Папка для вывода
+    output_dir = r"C:\Users\User\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_with_indicators"
+    os.makedirs(output_dir, exist_ok=True)
+    output_path_ask = os.path.join(output_dir, "XAUUSD_Renko_ONE_PIP_Ask_With_Indicators_2020_2025.csv")
+    output_path_bid = os.path.join(output_dir, "XAUUSD_Renko_ONE_PIP_Bid_With_Indicators_2020_2025.csv")
+
+    chunk_size = 2500000  # Размер чанка
+    total_rows = sum(1 for _ in open(file_path, encoding='utf-8')) - 1  # Минус заголовок
+    processed_rows = 0
+
+    try:
+        # Загрузка тиковых данных по чанкам
+        chunks = pd.read_csv(file_path, sep=';', chunksize=chunk_size, encoding='utf-8',
+                             parse_dates=['Time (EET)'], low_memory=False)
+        renko_df_ask = pd.DataFrame(columns=['Time (EET)', 'EndTime', 'Open', 'High', 'Low', 'Close', 'Volume'])
+        renko_df_bid = pd.DataFrame(columns=['Time (EET)', 'EndTime', 'Open', 'High', 'Low', 'Close', 'Volume'])
+
+        with Pool(cpu_count() // 2) as p:  # Половина ядер (8 из 16)
+            for chunk in chunks:
+                processed_rows += len(chunk)
+                print(f"Обработка чанка: {len(chunk)} строк (всего: {processed_rows}/{total_rows})")
+
+                # Проверка аномалий
+                for col in ['Ask', 'Bid', 'AskVolume', 'BidVolume']:
+                    if col in chunk.columns:
+                        if (chunk[col] < 0).any() or (chunk[col] > 10000).any():
+                            print(f"Аномалии в {col}: Отрицательные или экстремальные значения")
+
+                # Сортировка по времени
+                if not chunk['Time (EET)'].is_monotonic_increasing:
+                    chunk = chunk.sort_values(by='Time (EET)').reset_index(drop=True)
+
+                # Параллельная обработка
+                results = p.starmap(generate_renko_from_chunk, [
+                    (chunk, 'Ask', 'AskVolume'),
+                    (chunk, 'Bid', 'BidVolume')
+                ])
+                renko_df_ask = pd.concat([renko_df_ask, results[0]], ignore_index=True, copy=False)
+                renko_df_bid = pd.concat([renko_df_bid, results[1]], ignore_index=True, copy=False)
+
+        print(f"Сгенерировано Renko строк для Ask: {len(renko_df_ask)}")
+        print(f"Сгенерировано Renko строк для Bid: {len(renko_df_bid)}")
+
+        # Добавление индикаторов
+        for df, output_path in [(renko_df_ask, output_path_ask), (renko_df_bid, output_path_bid)]:
+            if len(df) > 50:
+                df['EMA_20'] = talib.EMA(df['Close'], timeperiod=20)
+                df['EMA_50'] = talib.EMA(df['Close'], timeperiod=50)
+                df['RSI_14'] = talib.RSI(df['Close'], timeperiod=14)
+                df['ATR_14'] = talib.ATR(df['High'], df['Low'], df['Close'], timeperiod=14)
+                if df['Volume'].sum() > 0:
+                    df['VWAP'] = (df['Close'] * df['Volume']).cumsum() / df['Volume'].cumsum()
+                else:
+                    df['VWAP'] = df['Close']
+                    print(f"Предупреждение: Нулевые объемы в {output_path}, VWAP = Close")
+                period = 20
+                df['Fib_0_0'] = df['Low'].rolling(window=period).min()
+                df['Fib_100_0'] = df['High'].rolling(window=period).max()
+                df['Fib_23_6'] = df['Fib_0_0'] + 0.236 * (df['Fib_100_0'] - df['Fib_0_0'])
+                df['Fib_38_2'] = df['Fib_0_0'] + 0.382 * (df['Fib_100_0'] - df['Fib_0_0'])
+                df['Fib_50_0'] = df['Fib_0_0'] + 0.5 * (df['Fib_100_0'] - df['Fib_0_0'])
+                df['Fib_61_8'] = df['Fib_0_0'] + 0.618 * (df['Fib_100_0'] - df['Fib_0_0'])
+                df['CDL_DOJI'] = talib.CDLDOJI(df['Open'], df['High'], df['Low'], df['Close'])
+                df['CDL_HAMMER'] = talib.CDLHAMMER(df['Open'], df['High'], df['Low'], df['Close'])
+                df['CDL_ENGULFING'] = talib.CDLENGULFING(df['Open'], df['High'], df['Low'], df['Close'])
+                print(f"Индикаторы добавлены для {output_path}")
+            else:
+                print(f"Недостаточно данных для индикаторов в {output_path}")
+
+            # Сохранение
+            df.to_csv(output_path, index=False)
+            print(f"Renko с индикаторами сохранен в: {output_path}")
+
+            # Проверка
+            saved_df = pd.read_csv(output_path, low_memory=False)
+            print(f"Проверка: {len(saved_df)} строк")
+            print(f"Пропуски: {saved_df.isnull().sum().to_dict()}")
+            print(f"Дубликаты: {saved_df.duplicated().sum()}")
+
+    except Exception as e:
+        print(f"Ошибка обработки: {str(e)}")
+
+    end_time = time.time()
+    total_time = end_time - start_time
+    print(f"[{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Завершено. Время: {total_time:.2f} секунд")
+    --- Конец содержимого ---
+  Файл: indicators_folder.py
+    Содержимое:
+import os
+import datetime
+
+# Путь к папке с данными
+data_dir = r"C:\Users\User\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_with_indicators"
+
+# Путь к выходному файлу
+output_dir = r"C:\Users\User\PycharmProjects\ONNX_bot\txt"
+os.makedirs(output_dir, exist_ok=True)
+output_file = os.path.join(output_dir,
+                           f"file_list_with_sizes_{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.txt")
+
+# Получение списка файлов и их размеров
+try:
+    files = [f for f in os.listdir(data_dir) if os.path.isfile(os.path.join(data_dir, f))]
+    output = [f"Список файлов в папке {data_dir} ({len(files)} файлов):"]
+    output.append(f"Время сканирования: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    output.append("")
+
+    for i, f in enumerate(files):
+        file_path = os.path.join(data_dir, f)
+        size_bytes = os.path.getsize(file_path)
+        size_kb = size_bytes / 1024
+        size_mb = size_kb / 1024
+        output.append(f"{i + 1}. {f}")
+        output.append(f"   Размер: {size_bytes} байт, {size_kb:.2f} КБ, {size_mb:.2f} МБ")
+
+    # Вывод в консоль
+    for line in output:
+        print(line)
+
+    # Сохранение в файл
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write("\n".join(output))
+        f.write(f"\n\nИтог: Количество строк в этом файле: {len(output)}")
+
+    print(f"\nРезультаты сохранены в: {output_file}")
+
+except Exception as e:
+    error_msg = f"Ошибка при сканировании папки: {str(e)}"
+    print(error_msg)
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(error_msg)
+        f.write(f"\n\nИтог: Количество строк в этом файле: 1")
+    --- Конец содержимого ---
+  Файл: list_directories_files.py
+    Содержимое:
+# list_directories_files.py
+# Version: 1.0
+# Launch Date: 2025-08-02 11:05:00
+# Expected Execution Time: ~10 seconds
+
+import os
+
+def list_directory_contents(path):
+    print(f"\nСодержимое {path}:")
+    for root, dirs, files in os.walk(path):
+        print(f"\nПапка: {root}")
+        for dir_name in dirs:
+            print(f"  Подпапка: {dir_name}")
+        for file_name in files:
+            print(f"  Файл: {file_name}")
+
+# Список путей для проверки
+paths = [
+    r"C:\Strawberry",
+    r"C:\Users\User\Downloads\ta-lib-0.6.4-windows-x86_64",
+    r"C:\Users\User\Downloads\ta-lib-0.6.4-src"
+]
+
+# Проверка каждого пути
+for path in paths:
+    if os.path.exists(path):
+        list_directory_contents(path)
+    else:
+        print(f"[2025-08-02 11:05:00] Путь не существует: {path}")
+
+print(f"[2025-08-02 11:05:00] Сканирование завершено.")
+    --- Конец содержимого ---
+  Файл: project_structure.py
+    Содержимое:
+import os
+import datetime
+
+# Уникальная метка для этой версии скрипта
+MARKER = f"xAI_Marker_v1_ONNX_bot_structure_{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+
+print(f"Запуск скрипта: {MARKER}")
+
+# Путь к корневой папке проекта
+root_dir = r"C:\Users\User\PycharmProjects\ONNX_bot"
+
+# Путь к папке для сохранения файла
+output_dir = os.path.join(root_dir, "txt")
+os.makedirs(output_dir, exist_ok=True)  # Создаем папку, если не существует
+
+# Путь к выходному файлу
+output_file = os.path.join(output_dir, "project_structure.txt")
+
+
+# Функция для обхода директорий
+def traverse_directory(root):
+    output = []
+    for dirpath, dirnames, filenames in os.walk(root):
+        # Исключаем папку .venv
+        if '.venv' in dirpath:
+            continue
+
+        # Добавляем текущую папку
+        rel_path = os.path.relpath(dirpath, root)
+        if rel_path == '.':
+            rel_path = ''
+        output.append(f"Папка: {rel_path}")
+
+        # Добавляем подпапки
+        for dirname in dirnames:
+            if dirname == '.venv':
+                continue  # Пропускаем .venv
+            output.append(f"  Подпапка: {dirname}")
+
+        # Добавляем файлы
+        for filename in filenames:
+            output.append(f"  Файл: {filename}")
+            file_path = os.path.join(dirpath, filename)
+
+            # Если файл .py, добавляем его содержимое
+            if filename.endswith('.py'):
+                try:
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        content = f.read()
+                    output.append("    Содержимое:")
+                    output.append(content)
+                    output.append("    --- Конец содержимого ---")
+                except Exception as e:
+                    output.append(f"    Ошибка чтения содержимого: {e}")
+
+    return output
+
+
+# Получаем вывод
+structure_output = traverse_directory(root_dir)
+
+# Выводим в консоль
+for line in structure_output:
+    print(line)
+
+# Сохраняем в файл
+try:
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(f"Запуск скрипта: {MARKER}\n\n")
+        for line in structure_output:
+            f.write(line + '\n')
+    print(f"\nВывод сохранен в файл: {output_file}")
+except Exception as e:
+    print(f"Ошибка сохранения файла: {e}")
+    --- Конец содержимого ---
+  Файл: renko_raws.py
+    Содержимое:
+import os
+import pandas as pd
+import random
+
+# Настройка pandas для полного отображения
+pd.set_option('display.max_colwidth', None)
+pd.set_option('display.float_format', '{:.6f}'.format)
+pd.set_option('display.max_columns', None)
+
+# Папка с Renko-файлами
+data_dir = r"C:\Users\User\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_with_indicators"
+
+
+# Функция для вывода строк из файла
+def print_rows_from_file(file_path):
+    filename = os.path.basename(file_path)
+    print(f"\n=== Анализ файла: {filename} ===")
+
+    try:
+        # Загрузка файла
+        df = pd.read_csv(file_path, low_memory=False, parse_dates=['Time (EET)', 'EndTime'])
+        print(f"Форма DataFrame: {df.shape} (строк: {df.shape[0]}, столбцов: {df.shape[1]})")
+
+        # Первые 5 строк
+        print("\n--- Первые 5 строк ---")
+        print(df.head(5).to_string(index=True))
+
+        # Последние 5 строк
+        print("\n--- Последние 5 строк ---")
+        print(df.tail(5).to_string(index=True))
+
+        # 15 случайных строк, исключая первые и последние 5
+        if len(df) > 10:
+            exclude_indices = list(range(5)) + list(range(len(df) - 5, len(df)))
+            df_middle = df.drop(exclude_indices)
+            if len(df_middle) >= 15:
+                random_rows = df_middle.sample(n=15, random_state=random.randint(0, 10000))
+                print("\n--- 15 случайных строк (исключая первые и последние 5) ---")
+                print(random_rows.to_string(index=True))
+            else:
+                print("\n--- 15 случайных строк: Недостаточно строк после исключения ---")
+        else:
+            print("\n--- 15 случайных строк: Файл слишком мал ---")
+
+    except Exception as e:
+        print(f"Ошибка обработки {filename}: {str(e)}")
+
+
+# Основной код
+if __name__ == "__main__":
+    # Список Renko-файлов
+    renko_files = [
+        os.path.join(data_dir, f)
+        for f in os.listdir(data_dir)
+        if f.startswith("XAUUSD_Renko_ONE_PIP") and f.endswith(".csv")
+    ]
+
+    print(f"Найдено файлов: {len(renko_files)}")
+
+    for file_path in renko_files:
+        print_rows_from_file(file_path)
+
+    print("\nОбработка завершена.")
+    --- Конец содержимого ---
+  Файл: ticks_raws.py
+    Содержимое:
+import os
+import pandas as pd
+import random
+import datetime
+
+# Путь к файлу с данными
+data_file = r"C:\Users\User\PycharmProjects\ONNX_bot\csv\jforex\data_reworked\data_reworked_cleaned\XAUUSD_Ticks_2020.01.01_2025.05.25_cleaned.csv"
+
+# Путь к папке для вывода
+output_dir = r"C:\Users\User\PycharmProjects\ONNX_bot\txt"
+os.makedirs(output_dir, exist_ok=True)
+output_file = os.path.join(output_dir,
+                           f"tick_data_sample_corrected_{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.txt")
+
+# Настройка pandas для полного отображения
+pd.set_option('display.max_colwidth', None)
+pd.set_option('display.float_format', '{:.6f}'.format)
+
+
+# Функция для получения выборки строк
+def sample_rows():
+    output = []
+    output.append(f"=== Анализ файла: XAUUSD_Ticks_2020.01.01_2025.05.25_cleaned.csv ===")
+    output.append(f"Время выполнения: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+
+    try:
+        # Проверка столбцов
+        df_head = pd.read_csv(data_file, nrows=1, low_memory=False)
+        columns = list(df_head.columns)
+        output.append(f"Столбцы в файле: {columns}")
+
+        # Поиск столбца с временем
+        time_col = None
+        for possible_col in ['Time (EET)', 'Time', 'Date', 'Timestamp']:
+            if possible_col in columns:
+                time_col = possible_col
+                break
+
+        # Загрузка файла
+        if time_col:
+            df = pd.read_csv(data_file, low_memory=False, parse_dates=[time_col])
+        else:
+            df = pd.read_csv(data_file, low_memory=False)
+            output.append("Предупреждение: Столбец с временем не найден, парсинг дат отключен")
+
+        output.append(f"Форма DataFrame: {df.shape} (строк: {df.shape[0]}, столбцов: {df.shape[1]})")
+
+        # Проверка объемов
+        if 'AskVolume' in df.columns and 'BidVolume' in df.columns:
+            output.append("\n--- Проверка объемов ---")
+            output.append(f"Ненулевые AskVolume: {(df['AskVolume'] != 0).sum()}")
+            output.append(f"Ненулевые BidVolume: {(df['BidVolume'] != 0).sum()}")
+            output.append(f"Уникальные значения AskVolume (первые 10): {list(df['AskVolume'].dropna().unique()[:10])}")
+            output.append(f"Уникальные значения BidVolume (первые 10): {list(df['BidVolume'].dropna().unique()[:10])}")
+        else:
+            output.append("Ошибка: Столбцы 'AskVolume' или 'BidVolume' отсутствуют")
+
+        # Первые 5 строк
+        output.append("\n--- Первые 5 строк ---")
+        output.append(df.head(5).to_string(index=True, float_format='%.6f'))
+
+        # Последние 5 строк
+        output.append("\n--- Последние 5 строк ---")
+        output.append(df.tail(5).to_string(index=True, float_format='%.6f'))
+
+        # 15 случайных строк, исключая первые и последние 5
+        if len(df) > 10:
+            exclude_indices = list(range(5)) + list(range(len(df) - 5, len(df)))
+            df_middle = df.drop(exclude_indices)
+            if len(df_middle) >= 15:
+                random_rows = df_middle.sample(n=15, random_state=random.randint(0, 10000))
+                output.append("\n--- 15 случайных строк (исключая первые и последние 5) ---")
+                output.append(random_rows.to_string(index=True, float_format='%.6f'))
+            else:
+                output.append("\n--- 15 случайных строк: Недостаточно строк после исключения ---")
+        else:
+            output.append("\n--- 15 случайных строк: Файл слишком мал ---")
+
+    except Exception as e:
+        output.append(f"Ошибка обработки: {str(e)}")
+
+    output.append(f"\nВремя завершения: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+
+    # Сохранение в файл
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write("\n".join(output))
+
+    # Подсчет строк
+    with open(output_file, 'r', encoding='utf-8') as f:
+        line_count = sum(1 for _ in f)
+    with open(output_file, 'a', encoding='utf-8') as f:
+        f.write(f"\n\n=== Итог: Количество строк в этом файле: {line_count} ===")
+
+    # Вывод в консоль
+    for line in output:
+        print(line)
+
+    print(f"\nРезультаты сохранены в: {output_file}")
+
+
+# Запуск
+if __name__ == "__main__":
+    sample_rows()
+    --- Конец содержимого ---
+Папка: txt
